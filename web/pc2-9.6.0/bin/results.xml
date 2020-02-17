@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<contestStandings>
+  <standingsHeader currentDate="Sat Feb 15 17:15:11 CST 2020" generatorId="$Id$" groupCount="1" medianProblemsSolved="0" problemCount="12" problemsAttempted="12" siteCount="1" systemName="CSUS Programming Contest System" systemURL="http://pc2.ecs.csus.edu/" systemVersion="9.6.0 20190102 build 5102" title="Programming Contest" totalAttempts="107" totalSolved="81">
+    <groupList/>
+    <colorList/>
+    <problem attempts="15" bestSolutionTime="2" id="1" lastSolutionTime="19" numberSolved="13" title="Aran"/>
+    <problem attempts="14" bestSolutionTime="5" id="2" lastSolutionTime="58" numberSolved="13" title="Brianna"/>
+    <problem attempts="7" bestSolutionTime="39" id="3" lastSolutionTime="116" numberSolved="5" title="Deepa"/>
+    <problem attempts="12" bestSolutionTime="13" id="4" lastSolutionTime="118" numberSolved="12" title="Emilio"/>
+    <problem attempts="15" bestSolutionTime="10" id="5" lastSolutionTime="108" numberSolved="13" title="Guoliang"/>
+    <problem attempts="11" bestSolutionTime="16" id="6" lastSolutionTime="112" numberSolved="2" title="Irene"/>
+    <problem attempts="3" bestSolutionTime="35" id="7" lastSolutionTime="101" numberSolved="2" title="Josey"/>
+    <problem attempts="8" bestSolutionTime="27" id="8" lastSolutionTime="112" numberSolved="8" title="Kelly"/>
+    <problem attempts="6" bestSolutionTime="82" id="9" lastSolutionTime="114" numberSolved="3" title="Maciej"/>
+    <problem attempts="10" bestSolutionTime="21" id="10" lastSolutionTime="105" numberSolved="8" title="Nitin"/>
+    <problem attempts="4" bestSolutionTime="41" id="11" lastSolutionTime="41" numberSolved="1" title="Teresa"/>
+    <problem attempts="2" bestSolutionTime="76" id="12" lastSolutionTime="76" numberSolved="1" title="Willie"/>
+  </standingsHeader>
+  <teamStanding firstSolved="2" index="0" lastSolved="82" points="710" problemsAttempted="12" rank="1" solved="12" teamAlias="team5 (not aliasesd)" teamExternalId="1005" teamId="5" teamKey="1TEAM5" teamName="team5" teamSiteId="1" totalAttempts="14">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="2"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="5"/>
+    <problemSummaryInfo attempts="1" index="3" isPending="false" isSolved="true" points="60" problemId="Deepa--780163004656611331" solutionTime="49"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="13"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="10"/>
+    <problemSummaryInfo attempts="1" index="6" isPending="false" isSolved="true" points="60" problemId="Irene--5450319172097941720" solutionTime="16"/>
+    <problemSummaryInfo attempts="1" index="7" isPending="false" isSolved="true" points="60" problemId="Josey--357197599517154132" solutionTime="35"/>
+    <problemSummaryInfo attempts="1" index="8" isPending="false" isSolved="true" points="60" problemId="Kelly-4632328234323282325" solutionTime="44"/>
+    <problemSummaryInfo attempts="2" index="9" isPending="false" isSolved="true" points="55" problemId="Maciej--783711973335785520" solutionTime="82"/>
+    <problemSummaryInfo attempts="1" index="10" isPending="false" isSolved="true" points="60" problemId="Nitin-6939264933611729553" solutionTime="29"/>
+    <problemSummaryInfo attempts="1" index="11" isPending="false" isSolved="true" points="60" problemId="Teresa--1859936217600923460" solutionTime="41"/>
+    <problemSummaryInfo attempts="2" index="12" isPending="false" isSolved="true" points="55" problemId="Willie-7073977388599961990" solutionTime="76"/>
+  </teamStanding>
+  <teamStanding firstSolved="6" index="1" lastSolved="114" points="535" problemsAttempted="10" rank="2" solved="9" teamAlias="team7 (not aliasesd)" teamExternalId="1007" teamId="7" teamKey="1TEAM7" teamName="team7" teamSiteId="1" totalAttempts="11">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="6"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="8"/>
+    <problemSummaryInfo attempts="1" index="3" isPending="false" isSolved="true" points="60" problemId="Deepa--780163004656611331" solutionTime="92"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="53"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="13"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="7" isPending="false" isSolved="true" points="60" problemId="Josey--357197599517154132" solutionTime="101"/>
+    <problemSummaryInfo attempts="1" index="8" isPending="false" isSolved="true" points="60" problemId="Kelly-4632328234323282325" solutionTime="27"/>
+    <problemSummaryInfo attempts="2" index="9" isPending="false" isSolved="true" points="55" problemId="Maciej--783711973335785520" solutionTime="114"/>
+    <problemSummaryInfo attempts="1" index="10" isPending="false" isSolved="true" points="60" problemId="Nitin-6939264933611729553" solutionTime="21"/>
+    <problemSummaryInfo attempts="1" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="-1"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="4" index="2" lastSolved="112" points="460" problemsAttempted="9" rank="3" solved="8" teamAlias="team10 (not aliasesd)" teamExternalId="1010" teamId="10" teamKey="1TEAM10" teamName="team10" teamSiteId="1" totalAttempts="13">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="4"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="7"/>
+    <problemSummaryInfo attempts="1" index="3" isPending="false" isSolved="true" points="60" problemId="Deepa--780163004656611331" solutionTime="39"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="45"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="14"/>
+    <problemSummaryInfo attempts="5" index="6" isPending="false" isSolved="true" points="40" problemId="Irene--5450319172097941720" solutionTime="112"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="8" isPending="false" isSolved="true" points="60" problemId="Kelly-4632328234323282325" solutionTime="65"/>
+    <problemSummaryInfo attempts="1" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="-1"/>
+    <problemSummaryInfo attempts="1" index="10" isPending="false" isSolved="true" points="60" problemId="Nitin-6939264933611729553" solutionTime="53"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="7" index="3" lastSolved="116" points="410" problemsAttempted="7" rank="4" solved="7" teamAlias="team4 (not aliasesd)" teamExternalId="1004" teamId="4" teamKey="1TEAM4" teamName="team4" teamSiteId="1" totalAttempts="9">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="7"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="14"/>
+    <problemSummaryInfo attempts="1" index="3" isPending="false" isSolved="true" points="60" problemId="Deepa--780163004656611331" solutionTime="116"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="54"/>
+    <problemSummaryInfo attempts="3" index="5" isPending="false" isSolved="true" points="50" problemId="Guoliang-6834039785409387591" solutionTime="108"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="8" isPending="false" isSolved="true" points="60" problemId="Kelly-4632328234323282325" solutionTime="86"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="10" isPending="false" isSolved="true" points="60" problemId="Nitin-6939264933611729553" solutionTime="105"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="7" index="4" lastSolved="114" points="355" problemsAttempted="8" rank="5" solved="6" teamAlias="team6 (not aliasesd)" teamExternalId="1006" teamId="6" teamKey="1TEAM6" teamName="team6" teamSiteId="1" totalAttempts="10">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="7"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="14"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="114"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="27"/>
+    <problemSummaryInfo attempts="2" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="-1"/>
+    <problemSummaryInfo attempts="1" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="-1"/>
+    <problemSummaryInfo attempts="1" index="8" isPending="false" isSolved="true" points="60" problemId="Kelly-4632328234323282325" solutionTime="112"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="2" index="10" isPending="false" isSolved="true" points="55" problemId="Nitin-6939264933611729553" solutionTime="76"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="5" index="5" lastSolved="118" points="355" problemsAttempted="7" rank="6" solved="6" teamAlias="team8 (not aliasesd)" teamExternalId="1008" teamId="8" teamKey="1TEAM8" teamName="team8" teamSiteId="1" totalAttempts="8">
+    <problemSummaryInfo attempts="2" index="1" isPending="false" isSolved="true" points="55" problemId="Aran-6131645633740264719" solutionTime="5"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="8"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="118"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="38"/>
+    <problemSummaryInfo attempts="1" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="-1"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="8" isPending="false" isSolved="true" points="60" problemId="Kelly-4632328234323282325" solutionTime="75"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="10" isPending="false" isSolved="true" points="60" problemId="Nitin-6939264933611729553" solutionTime="100"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="14" index="6" lastSolved="97" points="360" problemsAttempted="6" rank="7" solved="6" teamAlias="team2 (not aliasesd)" teamExternalId="1002" teamId="2" teamKey="1TEAM2" teamName="team2" teamSiteId="1" totalAttempts="6">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="14"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="58"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="72"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="39"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="9" isPending="false" isSolved="true" points="60" problemId="Maciej--783711973335785520" solutionTime="97"/>
+    <problemSummaryInfo attempts="1" index="10" isPending="false" isSolved="true" points="60" problemId="Nitin-6939264933611729553" solutionTime="47"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="6" index="7" lastSolved="100" points="360" problemsAttempted="6" rank="8" solved="6" teamAlias="team3 (not aliasesd)" teamExternalId="1003" teamId="3" teamKey="1TEAM3" teamName="team3" teamSiteId="1" totalAttempts="6">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="6"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="14"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="100"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="30"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="8" isPending="false" isSolved="true" points="60" problemId="Kelly-4632328234323282325" solutionTime="52"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="10" isPending="false" isSolved="true" points="60" problemId="Nitin-6939264933611729553" solutionTime="71"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="7" index="8" lastSolved="93" points="300" problemsAttempted="7" rank="9" solved="5" teamAlias="team12 (not aliasesd)" teamExternalId="1012" teamId="12" teamKey="1TEAM12" teamName="team12" teamSiteId="1" totalAttempts="8">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="7"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="17"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="84"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="37"/>
+    <problemSummaryInfo attempts="2" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="-1"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="8" isPending="false" isSolved="true" points="60" problemId="Kelly-4632328234323282325" solutionTime="93"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="-1"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="7" index="9" lastSolved="52" points="235" problemsAttempted="6" rank="10" solved="4" teamAlias="team9 (not aliasesd)" teamExternalId="1009" teamId="9" teamKey="1TEAM9" teamName="team9" teamSiteId="1" totalAttempts="7">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="7"/>
+    <problemSummaryInfo attempts="2" index="2" isPending="false" isSolved="true" points="55" problemId="Brianna--7577449560812566265" solutionTime="36"/>
+    <problemSummaryInfo attempts="1" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="-1"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="46"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="52"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="-1"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="8" index="10" lastSolved="91" points="235" problemsAttempted="5" rank="11" solved="4" teamAlias="team11 (not aliasesd)" teamExternalId="1011" teamId="11" teamKey="1TEAM11" teamName="team11" teamSiteId="1" totalAttempts="6">
+    <problemSummaryInfo attempts="2" index="1" isPending="false" isSolved="true" points="55" problemId="Aran-6131645633740264719" solutionTime="8"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="14"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="78"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="91"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="-1"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="10" index="11" lastSolved="99" points="235" problemsAttempted="4" rank="12" solved="4" teamAlias="team13 (not aliasesd)" teamExternalId="1013" teamId="13" teamKey="1TEAM13" teamName="team13" teamSiteId="1" totalAttempts="5">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="10"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="21"/>
+    <problemSummaryInfo attempts="2" index="3" isPending="false" isSolved="true" points="55" problemId="Deepa--780163004656611331" solutionTime="99"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="58"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="19" index="12" lastSolved="112" points="240" problemsAttempted="4" rank="13" solved="4" teamAlias="team1 (not aliasesd)" teamExternalId="1001" teamId="1" teamKey="1TEAM1" teamName="team1" teamSiteId="1" totalAttempts="4">
+    <problemSummaryInfo attempts="1" index="1" isPending="false" isSolved="true" points="60" problemId="Aran-6131645633740264719" solutionTime="19"/>
+    <problemSummaryInfo attempts="1" index="2" isPending="false" isSolved="true" points="60" problemId="Brianna--7577449560812566265" solutionTime="30"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="1" index="4" isPending="false" isSolved="true" points="60" problemId="Emilio--1343789064720061820" solutionTime="112"/>
+    <problemSummaryInfo attempts="1" index="5" isPending="false" isSolved="true" points="60" problemId="Guoliang-6834039785409387591" solutionTime="83"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="13" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team14 (not aliasesd)" teamExternalId="1014" teamId="14" teamKey="1TEAM14" teamName="team14" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="14" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team15 (not aliasesd)" teamExternalId="1015" teamId="15" teamKey="1TEAM15" teamName="team15" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="15" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team16 (not aliasesd)" teamExternalId="1016" teamId="16" teamKey="1TEAM16" teamName="team16" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="16" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team17 (not aliasesd)" teamExternalId="1017" teamId="17" teamKey="1TEAM17" teamName="team17" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="17" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team18 (not aliasesd)" teamExternalId="1018" teamId="18" teamKey="1TEAM18" teamName="team18" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="18" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team19 (not aliasesd)" teamExternalId="1019" teamId="19" teamKey="1TEAM19" teamName="team19" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="19" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team20 (not aliasesd)" teamExternalId="1020" teamId="20" teamKey="1TEAM20" teamName="team20" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="20" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team21 (not aliasesd)" teamExternalId="1021" teamId="21" teamKey="1TEAM21" teamName="team21" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="21" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team22 (not aliasesd)" teamExternalId="1022" teamId="22" teamKey="1TEAM22" teamName="team22" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="22" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team23 (not aliasesd)" teamExternalId="1023" teamId="23" teamKey="1TEAM23" teamName="team23" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="23" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team24 (not aliasesd)" teamExternalId="1024" teamId="24" teamKey="1TEAM24" teamName="team24" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="24" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team25 (not aliasesd)" teamExternalId="1025" teamId="25" teamKey="1TEAM25" teamName="team25" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="25" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team26 (not aliasesd)" teamExternalId="1026" teamId="26" teamKey="1TEAM26" teamName="team26" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="26" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team27 (not aliasesd)" teamExternalId="1027" teamId="27" teamKey="1TEAM27" teamName="team27" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="27" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team28 (not aliasesd)" teamExternalId="1028" teamId="28" teamKey="1TEAM28" teamName="team28" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="28" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team29 (not aliasesd)" teamExternalId="1029" teamId="29" teamKey="1TEAM29" teamName="team29" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="29" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team30 (not aliasesd)" teamExternalId="1030" teamId="30" teamKey="1TEAM30" teamName="team30" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="30" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team31 (not aliasesd)" teamExternalId="1031" teamId="31" teamKey="1TEAM31" teamName="team31" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="31" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team32 (not aliasesd)" teamExternalId="1032" teamId="32" teamKey="1TEAM32" teamName="team32" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="32" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team33 (not aliasesd)" teamExternalId="1033" teamId="33" teamKey="1TEAM33" teamName="team33" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="33" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team34 (not aliasesd)" teamExternalId="1034" teamId="34" teamKey="1TEAM34" teamName="team34" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="34" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team35 (not aliasesd)" teamExternalId="1035" teamId="35" teamKey="1TEAM35" teamName="team35" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="35" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team36 (not aliasesd)" teamExternalId="1036" teamId="36" teamKey="1TEAM36" teamName="team36" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="36" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team37 (not aliasesd)" teamExternalId="1037" teamId="37" teamKey="1TEAM37" teamName="team37" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="37" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team38 (not aliasesd)" teamExternalId="1038" teamId="38" teamKey="1TEAM38" teamName="team38" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="38" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team39 (not aliasesd)" teamExternalId="1039" teamId="39" teamKey="1TEAM39" teamName="team39" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+  <teamStanding firstSolved="-1" index="39" lastSolved="0" points="0" problemsAttempted="0" rank="14" solved="0" teamAlias="team40 (not aliasesd)" teamExternalId="1040" teamId="40" teamKey="1TEAM40" teamName="team40" teamSiteId="1" totalAttempts="0">
+    <problemSummaryInfo attempts="0" index="1" isPending="false" isSolved="false" points="0" problemId="Aran-6131645633740264719" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="2" isPending="false" isSolved="false" points="0" problemId="Brianna--7577449560812566265" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="3" isPending="false" isSolved="false" points="0" problemId="Deepa--780163004656611331" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="4" isPending="false" isSolved="false" points="0" problemId="Emilio--1343789064720061820" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="5" isPending="false" isSolved="false" points="0" problemId="Guoliang-6834039785409387591" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="6" isPending="false" isSolved="false" points="0" problemId="Irene--5450319172097941720" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="7" isPending="false" isSolved="false" points="0" problemId="Josey--357197599517154132" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="8" isPending="false" isSolved="false" points="0" problemId="Kelly-4632328234323282325" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="9" isPending="false" isSolved="false" points="0" problemId="Maciej--783711973335785520" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="10" isPending="false" isSolved="false" points="0" problemId="Nitin-6939264933611729553" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="11" isPending="false" isSolved="false" points="0" problemId="Teresa--1859936217600923460" solutionTime="0"/>
+    <problemSummaryInfo attempts="0" index="12" isPending="false" isSolved="false" points="0" problemId="Willie-7073977388599961990" solutionTime="0"/>
+  </teamStanding>
+</contestStandings>

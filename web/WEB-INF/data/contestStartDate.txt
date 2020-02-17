@@ -1,0 +1,8 @@
+Contest Date Format
+yyyy/MM/dd HH:mm:ss
+Contest Start Date Based On Format
+2020/02/15 15:00:00
+Contest End Date Based On Format
+2020/02/15 17:00:00
+Contest Appeal Accept End Date
+2020/02/15 17:10:00

@@ -1,0 +1,23 @@
+CSUS Programming Contest System
+Date: Saturday, February 15, 2020 5:26:12 PM CST
+Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Mac OS X 10.15.2 (x86_64) 
+
+Balloons Summary Report
+
+s1t1 team1 has 4:  Aran Brianna Emilio Guoliang
+s1t2 team2 has 6:  Aran Brianna Emilio Guoliang Maciej Nitin
+s1t3 team3 has 6:  Aran Brianna Emilio Guoliang Kelly Nitin
+s1t4 team4 has 7:  Aran Brianna Deepa Emilio Guoliang Kelly Nitin
+s1t5 team5 has 12:  Aran Brianna Deepa Emilio Guoliang Irene Josey Kelly Maciej Nitin Teresa Willie
+s1t6 team6 has 6:  Aran Brianna Emilio Guoliang Kelly Nitin
+s1t7 team7 has 9:  Aran Brianna Deepa Emilio Guoliang Josey Kelly Maciej Nitin
+s1t8 team8 has 6:  Aran Brianna Emilio Guoliang Kelly Nitin
+s1t9 team9 has 4:  Aran Brianna Emilio Guoliang
+s1t10 team10 has 8:  Aran Brianna Deepa Emilio Guoliang Irene Kelly Nitin
+s1t11 team11 has 4:  Aran Brianna Emilio Guoliang
+s1t12 team12 has 5:  Aran Brianna Emilio Guoliang Kelly
+s1t13 team13 has 4:  Aran Brianna Deepa Guoliang
+
+Total Balloons 81
+
+end report

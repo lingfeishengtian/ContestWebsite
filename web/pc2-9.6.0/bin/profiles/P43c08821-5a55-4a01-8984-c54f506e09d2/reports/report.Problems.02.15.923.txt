@@ -1,0 +1,713 @@
+CSUS Programming Contest System
+Date: Saturday, February 15, 2020 5:26:12 PM CST
+Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Mac OS X 10.15.2 (x86_64) 
+
+Problems Report
+
+Contest date/time: Sat Feb 15 15:00:01 CST 2020
+
+-- 12 problems --
+
+  Location for Judges CDP / problem config : ''
+  Location for  Admin CDP / problem config : ''
+
+  Problem 'Aran' ver=2 id=Aran-6131645633740264719
+       Short name       : 
+       Letter           : null
+       Data file name   : null
+       Answer file name : aran.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                          Warning - no judges data files defined (no contents) 
+                  0 judge data files
+                  1 judge answer files
+                    judge ans. file 'aran.out' 953 bytes, Internal SHA1 = -82105-2412513-68516444115-63-47-961394-50-72-11-2598
+                  * No validator files *
+
+  Problem 'Brianna' ver=2 id=Brianna--7577449560812566265
+       Short name       : 
+       Letter           : null
+       Data file name   : brianna.dat
+       Answer file name : brianna.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'brianna.dat' 105 bytes, Internal SHA1 = -30-59-123-15-5590108-48-58-9013-28-51107117-52-16-50-947
+                  1 judge answer files
+                    judge ans. file 'brianna.out' 9 bytes, Internal SHA1 = -14-1582-11058714760-117114607-57118-78-55-686592-81
+                  * No validator files *
+
+  Problem 'Deepa' ver=2 id=Deepa--780163004656611331
+       Short name       : 
+       Letter           : null
+       Data file name   : deepa.dat
+       Answer file name : deepa.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'deepa.dat' 355 bytes, Internal SHA1 = 9039-33109-6087-63-11395109-81-87-13-4580-588-9067-108
+                  1 judge answer files
+                    judge ans. file 'deepa.out' 135 bytes, Internal SHA1 = -76-9-33-83-81-46125-78-96-12486273-91-6881-121-115-40-109
+                  * No validator files *
+
+  Problem 'Emilio' ver=2 id=Emilio--1343789064720061820
+       Short name       : 
+       Letter           : null
+       Data file name   : emilio.dat
+       Answer file name : emilio.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'emilio.dat' 886 bytes, Internal SHA1 = 1674-1182864112-8710545-71131325-248-86-44109-104-59
+                  1 judge answer files
+                    judge ans. file 'emilio.out' 120 bytes, Internal SHA1 = 91124-147615-9648-8-495674-108107-98-100-97-96-47-6171
+                  * No validator files *
+
+  Problem 'Guoliang' ver=2 id=Guoliang-6834039785409387591
+       Short name       : 
+       Letter           : null
+       Data file name   : guoliang.dat
+       Answer file name : guoliang.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'guoliang.dat' 276 bytes, Internal SHA1 = -57-58110-4725-20-9-39-27-105-1168281-569883551082266
+                  1 judge answer files
+                    judge ans. file 'guoliang.out' 133 bytes, Internal SHA1 = 29-874390-113-118-2773860-34-1099371-6347-96-3276-113
+                  * No validator files *
+
+  Problem 'Irene' ver=2 id=Irene--5450319172097941720
+       Short name       : 
+       Letter           : null
+       Data file name   : irene.dat
+       Answer file name : irene.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'irene.dat' 133 bytes, Internal SHA1 = -86-121-118123-1226198-46-58-11778-48-1910846-51-42571-51
+                  1 judge answer files
+                    judge ans. file 'irene.out' 462 bytes, Internal SHA1 = 122698764-120-98-6564-85-3753-742-74-84-30-621257869
+                  * No validator files *
+
+  Problem 'Josey' ver=2 id=Josey--357197599517154132
+       Short name       : 
+       Letter           : null
+       Data file name   : josey.dat
+       Answer file name : josey.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'josey.dat' 70744 bytes, Internal SHA1 = 12447101121774747-78-104112364-1767-7879-26-7099
+                  1 judge answer files
+                    judge ans. file 'josey.out' 34842 bytes, Internal SHA1 = -34373-78265-76-6347-109-18-29867-35-69-128-490-53
+                  * No validator files *
+
+  Problem 'Kelly' ver=2 id=Kelly-4632328234323282325
+       Short name       : 
+       Letter           : null
+       Data file name   : kelly.dat
+       Answer file name : kelly.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'kelly.dat' 1161 bytes, Internal SHA1 = -11861-741271275970-6863124-115-653580-12878521127956
+                  1 judge answer files
+                    judge ans. file 'kelly.out' 320 bytes, Internal SHA1 = 8721-80-563358505139-86-62125881041246024-24-6026
+                  * No validator files *
+
+  Problem 'Maciej' ver=2 id=Maciej--783711973335785520
+       Short name       : 
+       Letter           : null
+       Data file name   : maciej.dat
+       Answer file name : maciej.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'maciej.dat' 174 bytes, Internal SHA1 = -18124-116-105-41-98-8112121-79-572478-11-39-116-36-11377-36
+                  1 judge answer files
+                    judge ans. file 'maciej.out' 181 bytes, Internal SHA1 = -378-82-127-75-83-71513774-16-48125-6118-221208-9691
+                  * No validator files *
+
+  Problem 'Nitin' ver=2 id=Nitin-6939264933611729553
+       Short name       : 
+       Letter           : null
+       Data file name   : nitin.dat
+       Answer file name : nitin.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'nitin.dat' 315 bytes, Internal SHA1 = -80-90-50101118-49-123-36920-4440-11060-117067-24-17-43
+                  1 judge answer files
+                    judge ans. file 'nitin.out' 328 bytes, Internal SHA1 = -12-11014633-27-961541-774589-1484-49-2611-12123102
+                  * No validator files *
+
+  Problem 'Teresa' ver=2 id=Teresa--1859936217600923460
+       Short name       : 
+       Letter           : null
+       Data file name   : teresa.dat
+       Answer file name : teresa.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'teresa.dat' 2716 bytes, Internal SHA1 = -98-127-72-34-38116-314854-82-11-12726-96-80-95-5527-82-100
+                  1 judge answer files
+                    judge ans. file 'teresa.out' 2798 bytes, Internal SHA1 = 72-11-2-101-93-9534737-30-10223-110-67-126-753-108118
+                  * No validator files *
+
+  Problem 'Willie' ver=2 id=Willie-7073977388599961990
+       Short name       : 
+       Letter           : null
+       Data file name   : willie.dat
+       Answer file name : willie.out
+       Read from stdin  : No
+       Number test cases: 1
+       Stop on 1st fail : No
+       Balloon color    : undefined
+       Balloon RGB      : undefined
+   Groups who can view  : All (0)
+
+   Execution time limit : 30 seconds
+        Computer Judged : true
+         Manual Review  : true
+  Show Prelim Judgement : false
+
+ Using output validator : true
+ Using output validator : PC2VALIDATOR
+         Validator name : edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+     Validator cmd line : {:validator} {:infile} {:outfile} {:ansfile} {:resfile} 
+     Validator option # : 1
+    Using pc2 validator : true
+
+    pc2ValidatorSettings: PC2ValidatorSettings[validatorProgramName=edu.csus.ecs.pc2.validator.pc2Validator.PC2Validator;
+    pc2ValidatorSettings>  validatorCommandLine="{:validator} {:infile} {:outfile} {:ansfile} {:resfile} ";
+    pc2ValidatorSettings>  whichPC2Validator=1;
+    pc2ValidatorSettings>  ignoreCaseOnValidation=false];
+  ClicsValidatorSettings: 
+ customValidatorSettings: CustomValidatorSettings[ValidatorProgramName=;
+ customValidatorSettings>  usePC2ValidatorInterface=false;
+ customValidatorSettings>  useCLICSValidatorInterface=true;
+ customValidatorSettings>  PC2InterfaceValidatorCommandLine={:validator} {:infile} {:outfile} {:ansfile} {:resfile} ;
+ customValidatorSettings>  CLICSInterfaceValidatorCommandLine={:validator} {:infile} {:ansfile} {:feedbackdir} ];
+
+    Has input validator : false
+        input validator : 
+    input validator cmd : 
+   input validator file: No file (contents saved) 
+ input validator status : NOT_TESTED
+
+   Using external files : false path = null
+                  1 judge data files
+                    judge data file 'willie.dat' 5121 bytes, Internal SHA1 = -51925820331158066769394-41117-31-124-35-4537-45
+                  1 judge answer files
+                    judge ans. file 'willie.out' 213 bytes, Internal SHA1 = 93-118-26-12388126291134654-1127444124-8477-71-9910959
+                  * No validator files *
+
+-- 12 problem data file sets --
+
+  Problem Data File set for Josey id=Josey--357197599517154132
+                  1 judge data files
+                    judge data file 'josey.dat' 70744 bytes, Internal SHA1 = 12447101121774747-78-104112364-1767-7879-26-7099
+                  1 judge answer files
+                    judge ans. file 'josey.out' 34842 bytes, Internal SHA1 = -34373-78265-76-6347-109-18-29867-35-69-128-490-53
+                  * No validator files *
+
+  Problem Data File set for Teresa id=Teresa--1859936217600923460
+                  1 judge data files
+                    judge data file 'teresa.dat' 2716 bytes, Internal SHA1 = -98-127-72-34-38116-314854-82-11-12726-96-80-95-5527-82-100
+                  1 judge answer files
+                    judge ans. file 'teresa.out' 2798 bytes, Internal SHA1 = 72-11-2-101-93-9534737-30-10223-110-67-126-753-108118
+                  * No validator files *
+
+  Problem Data File set for Brianna id=Brianna--7577449560812566265
+                  1 judge data files
+                    judge data file 'brianna.dat' 105 bytes, Internal SHA1 = -30-59-123-15-5590108-48-58-9013-28-51107117-52-16-50-947
+                  1 judge answer files
+                    judge ans. file 'brianna.out' 9 bytes, Internal SHA1 = -14-1582-11058714760-117114607-57118-78-55-686592-81
+                  * No validator files *
+
+  Problem Data File set for Nitin id=Nitin-6939264933611729553
+                  1 judge data files
+                    judge data file 'nitin.dat' 315 bytes, Internal SHA1 = -80-90-50101118-49-123-36920-4440-11060-117067-24-17-43
+                  1 judge answer files
+                    judge ans. file 'nitin.out' 328 bytes, Internal SHA1 = -12-11014633-27-961541-774589-1484-49-2611-12123102
+                  * No validator files *
+
+  Problem Data File set for Maciej id=Maciej--783711973335785520
+                  1 judge data files
+                    judge data file 'maciej.dat' 174 bytes, Internal SHA1 = -18124-116-105-41-98-8112121-79-572478-11-39-116-36-11377-36
+                  1 judge answer files
+                    judge ans. file 'maciej.out' 181 bytes, Internal SHA1 = -378-82-127-75-83-71513774-16-48125-6118-221208-9691
+                  * No validator files *
+
+  Problem Data File set for Kelly id=Kelly-4632328234323282325
+                  1 judge data files
+                    judge data file 'kelly.dat' 1161 bytes, Internal SHA1 = -11861-741271275970-6863124-115-653580-12878521127956
+                  1 judge answer files
+                    judge ans. file 'kelly.out' 320 bytes, Internal SHA1 = 8721-80-563358505139-86-62125881041246024-24-6026
+                  * No validator files *
+
+  Problem Data File set for Willie id=Willie-7073977388599961990
+                  1 judge data files
+                    judge data file 'willie.dat' 5121 bytes, Internal SHA1 = -51925820331158066769394-41117-31-124-35-4537-45
+                  1 judge answer files
+                    judge ans. file 'willie.out' 213 bytes, Internal SHA1 = 93-118-26-12388126291134654-1127444124-8477-71-9910959
+                  * No validator files *
+
+  Problem Data File set for Aran id=Aran-6131645633740264719
+                  0 judge data files
+                  1 judge answer files
+                    judge ans. file 'aran.out' 953 bytes, Internal SHA1 = -82105-2412513-68516444115-63-47-961394-50-72-11-2598
+                  * No validator files *
+
+  Problem Data File set for Irene id=Irene--5450319172097941720
+                  1 judge data files
+                    judge data file 'irene.dat' 133 bytes, Internal SHA1 = -86-121-118123-1226198-46-58-11778-48-1910846-51-42571-51
+                  1 judge answer files
+                    judge ans. file 'irene.out' 462 bytes, Internal SHA1 = 122698764-120-98-6564-85-3753-742-74-84-30-621257869
+                  * No validator files *
+
+  Problem Data File set for Emilio id=Emilio--1343789064720061820
+                  1 judge data files
+                    judge data file 'emilio.dat' 886 bytes, Internal SHA1 = 1674-1182864112-8710545-71131325-248-86-44109-104-59
+                  1 judge answer files
+                    judge ans. file 'emilio.out' 120 bytes, Internal SHA1 = 91124-147615-9648-8-495674-108107-98-100-97-96-47-6171
+                  * No validator files *
+
+  Problem Data File set for Guoliang id=Guoliang-6834039785409387591
+                  1 judge data files
+                    judge data file 'guoliang.dat' 276 bytes, Internal SHA1 = -57-58110-4725-20-9-39-27-105-1168281-569883551082266
+                  1 judge answer files
+                    judge ans. file 'guoliang.out' 133 bytes, Internal SHA1 = 29-874390-113-118-2773860-34-1099371-6347-96-3276-113
+                  * No validator files *
+
+  Problem Data File set for Deepa id=Deepa--780163004656611331
+                  1 judge data files
+                    judge data file 'deepa.dat' 355 bytes, Internal SHA1 = 9039-33109-6087-63-11395109-81-87-13-4580-588-9067-108
+                  1 judge answer files
+                    judge ans. file 'deepa.out' 135 bytes, Internal SHA1 = -76-9-33-83-81-46125-78-96-12486273-91-6881-121-115-40-109
+                  * No validator files *
+ Categories:
+  General
+
+end report

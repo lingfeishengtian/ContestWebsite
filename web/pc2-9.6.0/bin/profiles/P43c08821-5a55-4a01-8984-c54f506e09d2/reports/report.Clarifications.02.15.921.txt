@@ -1,0 +1,47 @@
+CSUS Programming Contest System
+Date: Saturday, February 15, 2020 5:26:12 PM CST
+Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Mac OS X 10.15.2 (x86_64) 
+
+Clarifications Report
+
+-- 3 clarifications --
+
+  Clarification 1 (Site 1) Clarification-530269657338600554
+           From  : TEAM2 @ site 1 "team2"
+         Problem : Guoliang
+         Elapsed : 50
+           State   : ANSWERED by JUDGE1 @ site 1 checked out by JUDGE1 @ site 1
+         To ALL? : false
+         Question: I accidentally sent the wrong file for Guolinag and I meant to send it to 
+a different problem called Nitin. I already got Guoliang correct previously.
+Do I still get points off?
+         Answer  : You didn't get points off.
+
+
+
+
+  Clarification 2 (Site 1) Clarification-7635808366710217384
+           From  : TEAM10 @ site 1 "team10"
+         Problem : Maciej
+         Elapsed : 72
+           State   : ANSWERED by JUDGE1 @ site 1 checked out by JUDGE1 @ site 1
+         To ALL? : false
+         Question: Should the name of this file be capitalized?
+         Answer  : No, do not capitalize the file name.
+
+
+
+
+  Clarification 3 (Site 1) Clarification--1067614843621221704
+           From  : TEAM4 @ site 1 "team4"
+         Problem : Guoliang
+         Elapsed : 87
+           State   : ANSWERED by JUDGE1 @ site 1 checked out by JUDGE1 @ site 1
+         To ALL? : false
+         Question: Work on all test data including edge cases why rejected? extra characters or lines?
+         Answer  : Please re-check your program.
+
+
+
+
+end report

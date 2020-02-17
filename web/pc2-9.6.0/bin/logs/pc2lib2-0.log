@@ -1,0 +1,112 @@
+200215 134148.100|CONFIG|main|setFileHandlers|Now logging to /Users/hunterhan/tomcat/webapps/ROOT/pc2-9.6.0/bin/logs directory.
+200215 134148.675|INFO|main|dumpPacket|Packet ADD_SETTING (Seq #1, o#1 ) Packet Contest/Profile Identifer does not match contest's null
+200215 134148.676|INFO|main|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (Hunters-MacBook-Pro.local @ 127.0.0.1) (Contest Id: null)
+200215 134148.676|INFO|main|dumpPacket|    To: SERVER0 @ site 1
+200215 134148.676|INFO|main|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language Java
+200215 134148.677|INFO|main|info|handlePacket start Packet[ADD_SETTING] #1 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134148.677|INFO|main|dumpPacket|Packet ADD_SETTING (Seq #1, o#1 ) handlePacket
+200215 134148.677|INFO|main|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (Hunters-MacBook-Pro.local @ 127.0.0.1) (Contest Id: null)
+200215 134148.677|INFO|main|dumpPacket|    To: SERVER0 @ site 1
+200215 134148.677|INFO|main|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language Java
+200215 134148.681|INFO|main|info|Exception in processPacket, check logs 
+|java.lang.NullPointerException: null
+|    at edu.csus.ecs.pc2.core.model.InternalContest.storeConfiguration (InternalContest.java:2400)
+|    at edu.csus.ecs.pc2.core.PacketHandler.addNewSetting (PacketHandler.java:2785)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handleOtherPacketTypes (PacketHandler.java:318)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handlePacket (PacketHandler.java:266)
+|    at edu.csus.ecs.pc2.core.InternalController.processPacket (InternalController.java:1996)
+|    at edu.csus.ecs.pc2.core.InternalController.sendToLocalServer (InternalController.java:367)
+|    at edu.csus.ecs.pc2.core.InternalController.addNewLanguage (InternalController.java:3574)
+|    at com.lingfeishengtian.utils.LanguageManager.loadDefaultLanguages (LanguageManager.java:21)
+|    at com.lingfeishengtian.utils.ProfileUtils.<init> (ProfileUtils.java:50)
+|    at com.lingfeishengtian.core.ContestInstance.<init> (ContestInstance.java:53)
+|    at com.lingfeishengtian.cli.CommandExecutor.execute (CommandExecutor.java:145)
+|    at com.lingfeishengtian.cli.CommandExecutor.executeCommand (CommandExecutor.java:227)
+|    at com.lingfeishengtian.cli.CommandExecutor.execute (CommandExecutor.java:168)
+|    at com.lingfeishengtian.cli.CommandExecutor.execute (CommandExecutor.java:124)
+|    at com.lingfeishengtian.cli.CommandExecutor.executeCommand (CommandExecutor.java:227)
+|    at com.lingfeishengtian.cli.CLIStarter.main (CLIStarter.java:15)
+200215 134148.682|INFO|main|info|Exception in processPacket for Packet[ADD_SETTING] #1 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134148.683|INFO|main|sendToLocalServer|Loopback send packet to server Packet[ADD_SETTING] #1 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134148.683|INFO|main|dumpPacket|Packet ADD_SETTING (Seq #2, o#2 ) Packet Contest/Profile Identifer does not match contest's null
+200215 134148.684|INFO|main|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (Hunters-MacBook-Pro.local @ 127.0.0.1) (Contest Id: null)
+200215 134148.685|INFO|main|dumpPacket|    To: SERVER0 @ site 1
+200215 134148.685|INFO|main|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C++ (Unix / Windows)
+200215 134148.685|INFO|main|info|handlePacket start Packet[ADD_SETTING] #2 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134148.685|INFO|main|dumpPacket|Packet ADD_SETTING (Seq #2, o#2 ) handlePacket
+200215 134148.686|INFO|main|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (Hunters-MacBook-Pro.local @ 127.0.0.1) (Contest Id: null)
+200215 134148.686|INFO|main|dumpPacket|    To: SERVER0 @ site 1
+200215 134148.686|INFO|main|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language GNU C++ (Unix / Windows)
+200215 134148.686|INFO|main|info|Exception in processPacket, check logs 
+|java.lang.NullPointerException: null
+|    at edu.csus.ecs.pc2.core.model.InternalContest.storeConfiguration (InternalContest.java:2400)
+|    at edu.csus.ecs.pc2.core.PacketHandler.addNewSetting (PacketHandler.java:2785)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handleOtherPacketTypes (PacketHandler.java:318)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handlePacket (PacketHandler.java:266)
+|    at edu.csus.ecs.pc2.core.InternalController.processPacket (InternalController.java:1996)
+|    at edu.csus.ecs.pc2.core.InternalController.sendToLocalServer (InternalController.java:367)
+|    at edu.csus.ecs.pc2.core.InternalController.addNewLanguage (InternalController.java:3574)
+|    at com.lingfeishengtian.utils.LanguageManager.loadDefaultLanguages (LanguageManager.java:25)
+|    at com.lingfeishengtian.utils.ProfileUtils.<init> (ProfileUtils.java:50)
+|    at com.lingfeishengtian.core.ContestInstance.<init> (ContestInstance.java:53)
+|    at com.lingfeishengtian.cli.CommandExecutor.execute (CommandExecutor.java:145)
+|    at com.lingfeishengtian.cli.CommandExecutor.executeCommand (CommandExecutor.java:227)
+|    at com.lingfeishengtian.cli.CommandExecutor.execute (CommandExecutor.java:168)
+|    at com.lingfeishengtian.cli.CommandExecutor.execute (CommandExecutor.java:124)
+|    at com.lingfeishengtian.cli.CommandExecutor.executeCommand (CommandExecutor.java:227)
+|    at com.lingfeishengtian.cli.CLIStarter.main (CLIStarter.java:15)
+200215 134148.690|INFO|main|info|Exception in processPacket for Packet[ADD_SETTING] #2 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134148.690|INFO|main|sendToLocalServer|Loopback send packet to server Packet[ADD_SETTING] #2 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134148.691|INFO|main|dumpPacket|Packet ADD_SETTING (Seq #3, o#3 ) Packet Contest/Profile Identifer does not match contest's null
+200215 134148.691|INFO|main|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (Hunters-MacBook-Pro.local @ 127.0.0.1) (Contest Id: null)
+200215 134148.692|INFO|main|dumpPacket|    To: SERVER0 @ site 1
+200215 134148.692|INFO|main|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language Perl
+200215 134148.693|INFO|main|info|handlePacket start Packet[ADD_SETTING] #3 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134148.693|INFO|main|dumpPacket|Packet ADD_SETTING (Seq #3, o#3 ) handlePacket
+200215 134148.694|INFO|main|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (Hunters-MacBook-Pro.local @ 127.0.0.1) (Contest Id: null)
+200215 134148.695|INFO|main|dumpPacket|    To: SERVER0 @ site 1
+200215 134148.695|INFO|main|dumpPacket|   key: LANGUAGE is: edu.csus.ecs.pc2.core.model.Language Perl
+200215 134148.695|INFO|main|info|Exception in processPacket, check logs 
+|java.lang.NullPointerException: null
+|    at edu.csus.ecs.pc2.core.model.InternalContest.storeConfiguration (InternalContest.java:2400)
+|    at edu.csus.ecs.pc2.core.PacketHandler.addNewSetting (PacketHandler.java:2785)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handleOtherPacketTypes (PacketHandler.java:318)
+|    at edu.csus.ecs.pc2.core.PacketHandler.handlePacket (PacketHandler.java:266)
+|    at edu.csus.ecs.pc2.core.InternalController.processPacket (InternalController.java:1996)
+|    at edu.csus.ecs.pc2.core.InternalController.sendToLocalServer (InternalController.java:367)
+|    at edu.csus.ecs.pc2.core.InternalController.addNewLanguage (InternalController.java:3574)
+|    at com.lingfeishengtian.utils.LanguageManager.loadDefaultLanguages (LanguageManager.java:29)
+|    at com.lingfeishengtian.utils.ProfileUtils.<init> (ProfileUtils.java:50)
+|    at com.lingfeishengtian.core.ContestInstance.<init> (ContestInstance.java:53)
+|    at com.lingfeishengtian.cli.CommandExecutor.execute (CommandExecutor.java:145)
+|    at com.lingfeishengtian.cli.CommandExecutor.executeCommand (CommandExecutor.java:227)
+|    at com.lingfeishengtian.cli.CommandExecutor.execute (CommandExecutor.java:168)
+|    at com.lingfeishengtian.cli.CommandExecutor.execute (CommandExecutor.java:124)
+|    at com.lingfeishengtian.cli.CommandExecutor.executeCommand (CommandExecutor.java:227)
+|    at com.lingfeishengtian.cli.CLIStarter.main (CLIStarter.java:15)
+200215 134148.696|INFO|main|info|Exception in processPacket for Packet[ADD_SETTING] #3 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134148.696|INFO|main|sendToLocalServer|Loopback send packet to server Packet[ADD_SETTING] #3 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134148.699|INFO|main|info|initializeServer STARTED this site as Site 1
+200215 134148.758|INFO|main|initializeServer|initializing controller with default settings
+200215 134148.772|INFO|main|info|reject.ini not found.  Loading default judgements
+200215 134148.789|INFO|main|info|initialized controller Site 1
+200215 134148.790|INFO|main|info|No auto start.  Date = null set to start false
+200215 134148.970|INFO|main|info|evals.log is opened at /Users/hunterhan/tomcat/webapps/ROOT/pc2-9.6.0/bin/profiles/P43c08821-5a55-4a01-8984-c54f506e09d2/logs
+200215 134148.972|INFO|main|updateAutoStartInformation|Created AutoStarter...
+200215 134148.972|INFO|main|updateAutoStartInformation|updated AutoStarter with date null (note: null means no scheduled start is set)
+200215 134148.975|INFO|main|updateAutoStopClockThread|Started auto stop clock thread, remaining time is 5:00:00
+200215 134149.050|INFO|main|dumpPacket|Packet UPDATE_SETTING (Seq #4, o#4 ) Packet Contest/Profile Identifer does not match contest's Default-3737554909911913459
+200215 134149.051|INFO|main|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (Hunters-MacBook-Pro.local @ 127.0.0.1) (Contest Id: null)
+200215 134149.051|INFO|main|dumpPacket|    To: SERVER0 @ site 1
+200215 134149.051|INFO|main|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@de3a06f
+200215 134149.051|INFO|main|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200215 134149.052|INFO|main|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+200215 134149.052|INFO|main|info|handlePacket start Packet[UPDATE_SETTING] #4 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134149.052|INFO|main|dumpPacket|Packet UPDATE_SETTING (Seq #4, o#4 ) handlePacket
+200215 134149.052|INFO|main|dumpPacket|  From: SERVER0 @ site 1, oSERVER0 @ site 1 (Hunters-MacBook-Pro.local @ 127.0.0.1) (Contest Id: null)
+200215 134149.052|INFO|main|dumpPacket|    To: SERVER0 @ site 1
+200215 134149.052|INFO|main|dumpPacket|   key: ACCOUNT_ARRAY is: [Ledu.csus.ecs.pc2.core.model.Account; [Ledu.csus.ecs.pc2.core.model.Account;@de3a06f
+200215 134149.053|INFO|main|dumpPacket|   key: SITE_NUMBER is: java.lang.Integer 1
+200215 134149.053|INFO|main|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+200215 134149.116|INFO|main|info|handlePacket end Packet[UPDATE_SETTING] #4 SERVER0 @ site 1 -> SERVER0 @ site 1
+200215 134149.116|INFO|main|sendToLocalServer|Loopback send packet to server Packet[UPDATE_SETTING] #4 SERVER0 @ site 1 -> SERVER0 @ site 1

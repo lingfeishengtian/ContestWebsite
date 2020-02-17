@@ -1,0 +1,163 @@
+CSUS Programming Contest System
+Date: Saturday, February 15, 2020 5:26:12 PM CST
+Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Mac OS X 10.15.2 (x86_64) 
+
+Fastest Solutions Per Problem Report
+
+There are 108 runs.
+
+Problem Aran
+
+Rank Elap Run# Team
+   1    2    1 team5 (Site 1)
+   2    4    3 team10 (Site 1)
+   3    5    5 team8 (Site 1)
+   4    6    7 team7 (Site 1)
+   4    6    8 team3 (Site 1)
+   6    7    9 team6 (Site 1)
+   6    7   10 team4 (Site 1)
+   6    7   11 team9 (Site 1)
+   6    7   13 team12 (Site 1)
+  10    8   15 team11 (Site 1)
+  11   10   18 team13 (Site 1)
+  12   14   23 team2 (Site 1)
+  13   19   29 team1 (Site 1)
+
+There are 13 runs solving Aran
+
+Problem Brianna
+
+Rank Elap Run# Team
+   1    5    6 team5 (Site 1)
+   2    7   12 team10 (Site 1)
+   3    8   14 team7 (Site 1)
+   3    8   16 team8 (Site 1)
+   5   14   21 team11 (Site 1)
+   5   14   22 team4 (Site 1)
+   5   14   24 team3 (Site 1)
+   5   14   25 team6 (Site 1)
+   9   17   28 team12 (Site 1)
+  10   21   30 team13 (Site 1)
+  11   30   36 team1 (Site 1)
+  12   36   40 team9 (Site 1)
+  13   58   62 team2 (Site 1)
+
+There are 13 runs solving Brianna
+
+Problem Deepa
+
+Rank Elap Run# Team
+   1   39   46 team10 (Site 1)
+   2   49   54 team5 (Site 1)
+   3   92   85 team7 (Site 1)
+   4   99   91 team13 (Site 1)
+   5  116  104 team4 (Site 1)
+
+There are 5 runs solving Deepa
+
+Problem Emilio
+
+Rank Elap Run# Team
+   1   13   19 team5 (Site 1)
+   2   45   49 team10 (Site 1)
+   3   46   51 team9 (Site 1)
+   4   53   59 team7 (Site 1)
+   5   54   60 team4 (Site 1)
+   6   72   71 team2 (Site 1)
+   7   78   77 team11 (Site 1)
+   8   84   81 team12 (Site 1)
+   9  100   93 team3 (Site 1)
+  10  112  100 team1 (Site 1)
+  11  114  103 team6 (Site 1)
+  12  118  106 team8 (Site 1)
+
+There are 12 runs solving Emilio
+
+Problem Guoliang
+
+Rank Elap Run# Team
+   1   10   17 team5 (Site 1)
+   2   13   20 team7 (Site 1)
+   3   14   26 team10 (Site 1)
+   4   27   32 team6 (Site 1)
+   5   30   37 team3 (Site 1)
+   6   37   42 team12 (Site 1)
+   7   38   43 team8 (Site 1)
+   8   39   45 team2 (Site 1)
+   9   52   56 team9 (Site 1)
+  10   58   61 team13 (Site 1)
+  11   83   80 team1 (Site 1)
+  12   91   84 team11 (Site 1)
+  13  108   97 team4 (Site 1)
+
+There are 13 runs solving Guoliang
+
+Problem Irene
+
+Rank Elap Run# Team
+   1   16   27 team5 (Site 1)
+   2  112   99 team10 (Site 1)
+
+There are 2 runs solving Irene
+
+Problem Josey
+
+Rank Elap Run# Team
+   1   35   39 team5 (Site 1)
+   2  101   94 team7 (Site 1)
+
+There are 2 runs solving Josey
+
+Problem Kelly
+
+Rank Elap Run# Team
+   1   27   33 team7 (Site 1)
+   2   44   48 team5 (Site 1)
+   3   52   57 team3 (Site 1)
+   4   65   65 team10 (Site 1)
+   5   75   74 team8 (Site 1)
+   6   86   82 team4 (Site 1)
+   7   93   86 team12 (Site 1)
+   8  112   98 team6 (Site 1)
+
+There are 8 runs solving Kelly
+
+Problem Maciej
+
+Rank Elap Run# Team
+   1   82   79 team5 (Site 1)
+   2   97   88 team2 (Site 1)
+   3  114  102 team7 (Site 1)
+
+There are 3 runs solving Maciej
+
+Problem Nitin
+
+Rank Elap Run# Team
+   1   21   31 team7 (Site 1)
+   2   29   34 team5 (Site 1)
+   3   47   53 team2 (Site 1)
+   4   53   58 team10 (Site 1)
+   5   71   70 team3 (Site 1)
+   6   76   75 team6 (Site 1)
+   7  100   92 team8 (Site 1)
+   8  105   95 team4 (Site 1)
+
+There are 8 runs solving Nitin
+
+Problem Teresa
+
+Rank Elap Run# Team
+   1   41   47 team5 (Site 1)
+
+There are 1 runs solving Teresa
+
+Problem Willie
+
+Rank Elap Run# Team
+   1   76   76 team5 (Site 1)
+
+There are 1 runs solving Willie
+
+
+end report

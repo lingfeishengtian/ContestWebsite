@@ -1,0 +1,233 @@
+
+# Evaluations Log Version 9.6.0 () Java ver 1.8.0_221 build 5102 Mac OS X 10.15.2 (x86_64) 
+# Log opened Sat Feb 15 13:41:48 CST 2020
+
+# Evaluations Log Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Mac OS X 10.15.2 (x86_64) 
+# Log opened Sat Feb 15 13:42:25 CST 2020
+Sat Feb 15 15:01:57 CST 2020|Site 1|Run 1|Team 5|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 127
+Sat Feb 15 15:03:44 CST 2020|Site 1|Run 2|Team 8|Aran-6131645633740264719|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 223
+Sat Feb 15 15:01:57 CST 2020|Site 1|Run 1|Team 5|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud false|AccHit false|Judge JUDGE2 @ site 1|elapsed 127
+Sat Feb 15 15:04:24 CST 2020|Site 1|Run 3|Team 10|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 263
+Sat Feb 15 15:03:44 CST 2020|Site 1|Run 2|Team 8|Aran-6131645633740264719|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 223
+Sat Feb 15 15:04:24 CST 2020|Site 1|Run 3|Team 10|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 263
+Sat Feb 15 15:05:17 CST 2020|Site 1|Run 4|Team 11|Aran-6131645633740264719|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 324
+Sat Feb 15 15:05:32 CST 2020|Site 1|Run 5|Team 8|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 331
+Sat Feb 15 15:05:46 CST 2020|Site 1|Run 6|Team 5|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 355
+Sat Feb 15 15:06:06 CST 2020|Site 1|Run 7|Team 7|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 365
+Sat Feb 15 15:05:32 CST 2020|Site 1|Run 5|Team 8|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 331
+Sat Feb 15 15:06:06 CST 2020|Site 1|Run 7|Team 7|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 365
+Sat Feb 15 15:05:46 CST 2020|Site 1|Run 6|Team 5|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 355
+Sat Feb 15 15:06:40 CST 2020|Site 1|Run 8|Team 3|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 397
+Sat Feb 15 15:06:40 CST 2020|Site 1|Run 8|Team 3|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 397
+Sat Feb 15 15:05:17 CST 2020|Site 1|Run 4|Team 11|Aran-6131645633740264719|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 324
+Sat Feb 15 15:07:05 CST 2020|Site 1|Run 9|Team 6|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 424
+Sat Feb 15 15:07:05 CST 2020|Site 1|Run 9|Team 6|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 424
+Sat Feb 15 15:07:35 CST 2020|Site 1|Run 10|Team 4|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 452
+Sat Feb 15 15:07:38 CST 2020|Site 1|Run 11|Team 9|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 458
+Sat Feb 15 15:07:43 CST 2020|Site 1|Run 12|Team 10|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 461
+Sat Feb 15 15:07:38 CST 2020|Site 1|Run 11|Team 9|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 458
+Sat Feb 15 15:07:45 CST 2020|Site 1|Run 13|Team 12|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 465
+Sat Feb 15 15:07:43 CST 2020|Site 1|Run 12|Team 10|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 461
+Sat Feb 15 15:07:35 CST 2020|Site 1|Run 10|Team 4|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 452
+Sat Feb 15 15:07:45 CST 2020|Site 1|Run 13|Team 12|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 465
+Sat Feb 15 15:08:24 CST 2020|Site 1|Run 14|Team 7|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 502
+Sat Feb 15 15:08:34 CST 2020|Site 1|Run 15|Team 11|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 521
+Sat Feb 15 15:08:24 CST 2020|Site 1|Run 14|Team 7|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 502
+Sat Feb 15 15:08:49 CST 2020|Site 1|Run 16|Team 8|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 527
+Sat Feb 15 15:08:34 CST 2020|Site 1|Run 15|Team 11|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 521
+Sat Feb 15 15:08:49 CST 2020|Site 1|Run 16|Team 8|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 527
+Sat Feb 15 15:14:44 CST 2020|Site 1|Run 18|Team 13|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 642
+Sat Feb 15 15:10:33 CST 2020|Site 1|Run 17|Team 5|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 642
+Sat Feb 15 15:14:44 CST 2020|Site 1|Run 18|Team 13|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 642
+Sat Feb 15 15:10:33 CST 2020|Site 1|Run 17|Team 5|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 642
+Sat Feb 15 15:13:05 CST 2020|Site 1|Run 19|Team 5|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 794
+Sat Feb 15 15:13:37 CST 2020|Site 1|Run 20|Team 7|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 816
+Sat Feb 15 15:13:05 CST 2020|Site 1|Run 19|Team 5|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 794
+Sat Feb 15 15:13:37 CST 2020|Site 1|Run 20|Team 7|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 816
+Sat Feb 15 15:14:07 CST 2020|Site 1|Run 21|Team 11|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 854
+Sat Feb 15 15:14:07 CST 2020|Site 1|Run 21|Team 11|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 854
+Sat Feb 15 15:14:31 CST 2020|Site 1|Run 22|Team 4|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 869
+Sat Feb 15 15:14:31 CST 2020|Site 1|Run 22|Team 4|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 869
+Sat Feb 15 15:14:34 CST 2020|Site 1|Run 23|Team 2|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 879
+Sat Feb 15 15:14:42 CST 2020|Site 1|Run 25|Team 6|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 881
+Sat Feb 15 15:14:44 CST 2020|Site 1|Run 24|Team 3|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 881
+Sat Feb 15 15:14:44 CST 2020|Site 1|Run 26|Team 10|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 882
+Sat Feb 15 15:14:34 CST 2020|Site 1|Run 23|Team 2|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 879
+Sat Feb 15 15:14:42 CST 2020|Site 1|Run 25|Team 6|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 881
+Sat Feb 15 15:14:44 CST 2020|Site 1|Run 24|Team 3|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 881
+Sat Feb 15 15:14:44 CST 2020|Site 1|Run 26|Team 10|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 882
+Sat Feb 15 15:16:31 CST 2020|Site 1|Run 27|Team 5|Irene--5450319172097941720|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1000
+Sat Feb 15 15:17:03 CST 2020|Site 1|Run 28|Team 12|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 1023
+Sat Feb 15 15:16:31 CST 2020|Site 1|Run 27|Team 5|Irene--5450319172097941720|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1000
+Sat Feb 15 15:17:03 CST 2020|Site 1|Run 28|Team 12|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1023
+Sat Feb 15 15:19:08 CST 2020|Site 1|Run 29|Team 1|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 1145
+Sat Feb 15 15:19:08 CST 2020|Site 1|Run 29|Team 1|Aran-6131645633740264719|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 1145
+Sat Feb 15 15:25:11 CST 2020|Site 1|Run 30|Team 13|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 1269
+Sat Feb 15 15:21:13 CST 2020|Site 1|Run 31|Team 7|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 1272
+Sat Feb 15 15:21:13 CST 2020|Site 1|Run 31|Team 7|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 1272
+Sat Feb 15 15:25:11 CST 2020|Site 1|Run 30|Team 13|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 1269
+Sat Feb 15 15:27:40 CST 2020|Site 1|Run 32|Team 6|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 1659
+Sat Feb 15 15:27:58 CST 2020|Site 1|Run 33|Team 7|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 1677
+Sat Feb 15 15:27:40 CST 2020|Site 1|Run 32|Team 6|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1659
+Sat Feb 15 15:27:58 CST 2020|Site 1|Run 33|Team 7|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 1677
+Sat Feb 15 15:29:16 CST 2020|Site 1|Run 34|Team 5|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1765
+Sat Feb 15 15:29:16 CST 2020|Site 1|Run 34|Team 5|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 1765
+Sat Feb 15 15:29:46 CST 2020|Site 1|Run 35|Team 8|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1785
+Sat Feb 15 15:30:22 CST 2020|Site 1|Run 36|Team 1|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1820
+Sat Feb 15 15:30:22 CST 2020|Site 1|Run 36|Team 1|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1820
+Sat Feb 15 15:29:46 CST 2020|Site 1|Run 35|Team 8|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 1785
+Sat Feb 15 15:31:00 CST 2020|Site 1|Run 37|Team 3|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1858
+Sat Feb 15 15:31:00 CST 2020|Site 1|Run 37|Team 3|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1858
+Sat Feb 15 15:32:46 CST 2020|Site 1|Run 38|Team 9|Brianna--7577449560812566265|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1966
+Sat Feb 15 15:32:46 CST 2020|Site 1|Run 38|Team 9|Brianna--7577449560812566265|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1966
+Sat Feb 15 15:34:54 CST 2020|Site 1|Run 39|Team 5|Josey--357197599517154132|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 2104
+Sat Feb 15 15:36:36 CST 2020|Site 1|Run 40|Team 9|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2196
+Sat Feb 15 15:36:36 CST 2020|Site 1|Run 40|Team 9|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 2196
+Sat Feb 15 15:34:54 CST 2020|Site 1|Run 39|Team 5|Josey--357197599517154132|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 2104
+Sat Feb 15 15:37:38 CST 2020|Site 1|Run 41|Team 6|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Run-time Error|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 2257
+Sat Feb 15 15:37:53 CST 2020|Site 1|Run 42|Team 12|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 2272
+Sat Feb 15 15:37:38 CST 2020|Site 1|Run 41|Team 6|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Run-time Error|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 2257
+Sat Feb 15 15:37:53 CST 2020|Site 1|Run 42|Team 12|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 2272
+Sat Feb 15 15:38:03 CST 2020|Site 1|Run 43|Team 8|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2283
+Sat Feb 15 15:38:03 CST 2020|Site 1|Run 43|Team 8|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2283
+Sat Feb 15 15:38:25 CST 2020|Site 1|Run 44|Team 7|Maciej--783711973335785520|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2304
+Sat Feb 15 15:38:25 CST 2020|Site 1|Run 44|Team 7|Maciej--783711973335785520|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 2304
+Sat Feb 15 15:39:23 CST 2020|Site 1|Run 45|Team 2|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 2368
+Sat Feb 15 15:39:55 CST 2020|Site 1|Run 46|Team 10|Deepa--780163004656611331|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 2393
+Sat Feb 15 15:39:23 CST 2020|Site 1|Run 45|Team 2|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2368
+Sat Feb 15 15:39:55 CST 2020|Site 1|Run 46|Team 10|Deepa--780163004656611331|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2393
+Sat Feb 15 15:41:34 CST 2020|Site 1|Run 47|Team 5|Teresa--1859936217600923460|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2504
+Sat Feb 15 15:41:34 CST 2020|Site 1|Run 47|Team 5|Teresa--1859936217600923460|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2504
+Sat Feb 15 15:44:28 CST 2020|Site 1|Run 48|Team 5|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 2677
+Sat Feb 15 15:44:28 CST 2020|Site 1|Run 48|Team 5|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2677
+Sat Feb 15 15:45:19 CST 2020|Site 1|Run 49|Team 10|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2718
+Sat Feb 15 15:45:19 CST 2020|Site 1|Run 49|Team 10|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2718
+Sat Feb 15 15:46:35 CST 2020|Site 1|Run 50|Team 7|Teresa--1859936217600923460|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 2794
+Sat Feb 15 15:46:36 CST 2020|Site 1|Run 51|Team 9|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 2796
+Sat Feb 15 15:46:35 CST 2020|Site 1|Run 50|Team 7|Teresa--1859936217600923460|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2794
+Sat Feb 15 15:46:36 CST 2020|Site 1|Run 51|Team 9|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2796
+Sat Feb 15 15:47:04 CST 2020|Site 1|Run 52|Team 2|Guoliang-6834039785409387591|Solved false|Proxy 0|Deleted false|Judgement No - Run-time Error|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 2829
+Sat Feb 15 15:47:33 CST 2020|Site 1|Run 53|Team 2|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 2858
+Sat Feb 15 15:47:04 CST 2020|Site 1|Run 52|Team 2|Guoliang-6834039785409387591|Solved false|Proxy 0|Deleted false|Judgement No - Run-time Error|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 2829
+Sat Feb 15 15:47:33 CST 2020|Site 1|Run 53|Team 2|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2858
+Sat Feb 15 15:48:51 CST 2020|Site 1|Run 54|Team 5|Deepa--780163004656611331|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 2941
+Sat Feb 15 15:48:51 CST 2020|Site 1|Run 54|Team 5|Deepa--780163004656611331|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 2941
+Sat Feb 15 15:51:50 CST 2020|Site 1|Run 55|Team 5|Maciej--783711973335785520|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3119
+Sat Feb 15 15:52:10 CST 2020|Site 1|Run 56|Team 9|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 3130
+Sat Feb 15 15:52:21 CST 2020|Site 1|Run 57|Team 3|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 3138
+Sat Feb 15 15:53:41 CST 2020|Site 1|Run 58|Team 10|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 3219
+Sat Feb 15 15:53:55 CST 2020|Site 1|Run 59|Team 7|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 3234
+Sat Feb 15 15:51:50 CST 2020|Site 1|Run 55|Team 5|Maciej--783711973335785520|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3119
+Sat Feb 15 15:52:10 CST 2020|Site 1|Run 56|Team 9|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3130
+Sat Feb 15 15:52:21 CST 2020|Site 1|Run 57|Team 3|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3138
+Sat Feb 15 15:53:41 CST 2020|Site 1|Run 58|Team 10|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3219
+Sat Feb 15 15:53:55 CST 2020|Site 1|Run 59|Team 7|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3234
+Sat Feb 15 15:55:00 CST 2020|Site 1|Run 60|Team 4|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3298
+Sat Feb 15 15:55:00 CST 2020|Site 1|Run 60|Team 4|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3298
+Sat Feb 15 16:02:23 CST 2020|Site 1|Run 61|Team 13|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 3501
+Sat Feb 15 15:58:38 CST 2020|Site 1|Run 62|Team 2|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3523
+Sat Feb 15 15:58:38 CST 2020|Site 1|Run 62|Team 2|Brianna--7577449560812566265|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3523
+Sat Feb 15 16:02:23 CST 2020|Site 1|Run 61|Team 13|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3501
+Sat Feb 15 16:01:56 CST 2020|Site 1|Run 63|Team 6|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 3715
+Sat Feb 15 16:01:56 CST 2020|Site 1|Run 63|Team 6|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3715
+Sat Feb 15 16:04:32 CST 2020|Site 1|Run 64|Team 4|Guoliang-6834039785409387591|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3869
+Sat Feb 15 16:04:32 CST 2020|Site 1|Run 64|Team 4|Guoliang-6834039785409387591|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3869
+Sat Feb 15 16:05:02 CST 2020|Site 1|Run 65|Team 10|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3901
+Sat Feb 15 16:05:02 CST 2020|Site 1|Run 65|Team 10|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3901
+Sat Feb 15 16:07:24 CST 2020|Site 1|Run 66|Team 6|Nitin-6939264933611729553|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4043
+Sat Feb 15 16:07:24 CST 2020|Site 1|Run 66|Team 6|Nitin-6939264933611729553|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4043
+Sat Feb 15 16:08:41 CST 2020|Site 1|Run 67|Team 5|Willie-7073977388599961990|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4130
+Sat Feb 15 15:51:50 CST 2020|Site 1|Run 55|Team 5|Maciej--783711973335785520|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 3119
+Sat Feb 15 16:10:22 CST 2020|Site 1|Run 68|Team 4|Guoliang-6834039785409387591|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4220
+Sat Feb 15 15:38:25 CST 2020|Site 1|Run 44|Team 7|Maciej--783711973335785520|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 2304
+Sat Feb 15 16:11:05 CST 2020|Site 1|Run 69|Team 10|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4264
+Sat Feb 15 16:11:36 CST 2020|Site 1|Run 70|Team 3|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4293
+Sat Feb 15 16:10:22 CST 2020|Site 1|Run 68|Team 4|Guoliang-6834039785409387591|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4220
+Sat Feb 15 16:11:05 CST 2020|Site 1|Run 69|Team 10|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4264
+Sat Feb 15 16:08:41 CST 2020|Site 1|Run 67|Team 5|Willie-7073977388599961990|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4130
+Sat Feb 15 16:11:36 CST 2020|Site 1|Run 70|Team 3|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4293
+Sat Feb 15 16:12:21 CST 2020|Site 1|Run 71|Team 2|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4346
+Sat Feb 15 16:11:05 CST 2020|Site 1|Run 69|Team 10|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4264
+Sat Feb 15 16:12:21 CST 2020|Site 1|Run 71|Team 2|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4346
+Sat Feb 15 16:13:19 CST 2020|Site 1|Run 72|Team 10|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4398
+Sat Feb 15 16:13:19 CST 2020|Site 1|Run 72|Team 10|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4398
+Sat Feb 15 16:14:51 CST 2020|Site 1|Run 73|Team 9|Nitin-6939264933611729553|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4491
+Sat Feb 15 16:15:09 CST 2020|Site 1|Run 74|Team 8|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4508
+Sat Feb 15 16:16:17 CST 2020|Site 1|Run 75|Team 6|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4577
+Sat Feb 15 16:16:20 CST 2020|Site 1|Run 76|Team 5|Willie-7073977388599961990|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4589
+Sat Feb 15 16:14:51 CST 2020|Site 1|Run 73|Team 9|Nitin-6939264933611729553|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4491
+Sat Feb 15 16:16:17 CST 2020|Site 1|Run 75|Team 6|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4577
+Sat Feb 15 16:16:20 CST 2020|Site 1|Run 76|Team 5|Willie-7073977388599961990|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4589
+Sat Feb 15 16:15:09 CST 2020|Site 1|Run 74|Team 8|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4508
+Sat Feb 15 16:18:23 CST 2020|Site 1|Run 77|Team 11|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4710
+Sat Feb 15 16:18:23 CST 2020|Site 1|Run 77|Team 11|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4710
+Sat Feb 15 16:19:30 CST 2020|Site 1|Run 78|Team 10|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 4768
+Sat Feb 15 16:22:11 CST 2020|Site 1|Run 79|Team 5|Maciej--783711973335785520|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 4941
+Sat Feb 15 16:19:30 CST 2020|Site 1|Run 78|Team 10|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 4768
+Sat Feb 15 16:22:11 CST 2020|Site 1|Run 79|Team 5|Maciej--783711973335785520|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 4941
+Sat Feb 15 16:23:54 CST 2020|Site 1|Run 80|Team 1|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 5031
+Sat Feb 15 16:24:10 CST 2020|Site 1|Run 81|Team 12|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5049
+Sat Feb 15 16:24:10 CST 2020|Site 1|Run 81|Team 12|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5049
+Sat Feb 15 16:23:54 CST 2020|Site 1|Run 80|Team 1|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5031
+Sat Feb 15 16:26:39 CST 2020|Site 1|Run 82|Team 4|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 5196
+Sat Feb 15 16:26:39 CST 2020|Site 1|Run 82|Team 4|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5196
+Sat Feb 15 16:27:02 CST 2020|Site 1|Run 83|Team 10|Maciej--783711973335785520|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 5220
+Sat Feb 15 16:27:02 CST 2020|Site 1|Run 83|Team 10|Maciej--783711973335785520|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5220
+Sat Feb 15 16:10:22 CST 2020|Site 1|Run 68|Team 4|Guoliang-6834039785409387591|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 4220
+Sat Feb 15 16:31:10 CST 2020|Site 1|Run 84|Team 11|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 5477
+Sat Feb 15 16:31:10 CST 2020|Site 1|Run 84|Team 11|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5477
+Sat Feb 15 16:32:35 CST 2020|Site 1|Run 85|Team 7|Deepa--780163004656611331|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 5554
+Sat Feb 15 16:33:26 CST 2020|Site 1|Run 86|Team 12|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5605
+Sat Feb 15 16:32:35 CST 2020|Site 1|Run 85|Team 7|Deepa--780163004656611331|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5554
+Sat Feb 15 16:33:26 CST 2020|Site 1|Run 86|Team 12|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5605
+Sat Feb 15 16:40:25 CST 2020|Site 1|Run 87|Team 13|Deepa--780163004656611331|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5783
+Sat Feb 15 16:40:25 CST 2020|Site 1|Run 87|Team 13|Deepa--780163004656611331|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5783
+Sat Feb 15 16:37:29 CST 2020|Site 1|Run 88|Team 2|Maciej--783711973335785520|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 5854
+Sat Feb 15 16:37:29 CST 2020|Site 1|Run 88|Team 2|Maciej--783711973335785520|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5854
+Sat Feb 15 16:37:51 CST 2020|Site 1|Run 90|Team 10|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5870
+Sat Feb 15 16:37:50 CST 2020|Site 1|Run 89|Team 6|Josey--357197599517154132|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 5869
+Sat Feb 15 16:37:51 CST 2020|Site 1|Run 90|Team 10|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5870
+Sat Feb 15 16:37:50 CST 2020|Site 1|Run 89|Team 6|Josey--357197599517154132|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5869
+Sat Feb 15 16:43:38 CST 2020|Site 1|Run 91|Team 13|Deepa--780163004656611331|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 5976
+Sat Feb 15 16:43:38 CST 2020|Site 1|Run 91|Team 13|Deepa--780163004656611331|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5976
+Sat Feb 15 16:40:43 CST 2020|Site 1|Run 92|Team 8|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 6042
+Sat Feb 15 16:40:53 CST 2020|Site 1|Run 93|Team 3|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 6051
+Sat Feb 15 16:40:43 CST 2020|Site 1|Run 92|Team 8|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6042
+Sat Feb 15 16:40:53 CST 2020|Site 1|Run 93|Team 3|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6051
+Sat Feb 15 16:41:46 CST 2020|Site 1|Run 94|Team 7|Josey--357197599517154132|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 6105
+Sat Feb 15 16:41:46 CST 2020|Site 1|Run 94|Team 7|Josey--357197599517154132|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6105
+Sat Feb 15 16:45:17 CST 2020|Site 1|Run 95|Team 4|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 6315
+Sat Feb 15 16:45:17 CST 2020|Site 1|Run 95|Team 4|Nitin-6939264933611729553|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6315
+Sat Feb 15 16:47:14 CST 2020|Site 1|Run 96|Team 12|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 6434
+Sat Feb 15 16:47:14 CST 2020|Site 1|Run 96|Team 12|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6434
+Sat Feb 15 16:48:43 CST 2020|Site 1|Run 97|Team 4|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6521
+Sat Feb 15 16:48:43 CST 2020|Site 1|Run 97|Team 4|Guoliang-6834039785409387591|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6521
+Sat Feb 15 16:52:01 CST 2020|Site 1|Run 98|Team 6|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6720
+Sat Feb 15 16:52:32 CST 2020|Site 1|Run 99|Team 10|Irene--5450319172097941720|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6751
+Sat Feb 15 16:52:50 CST 2020|Site 1|Run 100|Team 1|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 6767
+Sat Feb 15 16:54:03 CST 2020|Site 1|Run 101|Team 11|Teresa--1859936217600923460|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6850
+Sat Feb 15 16:54:19 CST 2020|Site 1|Run 102|Team 7|Maciej--783711973335785520|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6858
+Sat Feb 15 16:54:30 CST 2020|Site 1|Run 103|Team 6|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 6869
+Sat Feb 15 16:56:22 CST 2020|Site 1|Run 104|Team 4|Deepa--780163004656611331|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 6979
+Sat Feb 15 16:57:19 CST 2020|Site 1|Run 105|Team 9|Deepa--780163004656611331|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE3 @ site 1|elapsed 7039
+Sat Feb 15 16:52:01 CST 2020|Site 1|Run 98|Team 6|Kelly-4632328234323282325|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6720
+Sat Feb 15 16:52:50 CST 2020|Site 1|Run 100|Team 1|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6767
+Sat Feb 15 16:52:50 CST 2020|Site 1|Run 100|Team 1|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6767
+Sat Feb 15 16:54:03 CST 2020|Site 1|Run 101|Team 11|Teresa--1859936217600923460|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6850
+Sat Feb 15 16:58:30 CST 2020|Site 1|Run 106|Team 8|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 7109
+Sat Feb 15 16:54:19 CST 2020|Site 1|Run 102|Team 7|Maciej--783711973335785520|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6858
+Sat Feb 15 16:52:32 CST 2020|Site 1|Run 99|Team 10|Irene--5450319172097941720|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6751
+Sat Feb 15 16:56:22 CST 2020|Site 1|Run 104|Team 4|Deepa--780163004656611331|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6979
+Sat Feb 15 16:57:19 CST 2020|Site 1|Run 105|Team 9|Deepa--780163004656611331|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 7039
+Sat Feb 15 16:54:30 CST 2020|Site 1|Run 103|Team 6|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6869
+Sat Feb 15 16:58:30 CST 2020|Site 1|Run 106|Team 8|Emilio--1343789064720061820|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 7109
+Sat Feb 15 16:59:07 CST 2020|Site 1|Run 107|Team 12|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 7147
+Sat Feb 15 16:59:43 CST 2020|Site 1|Run 108|Team 12|Teresa--1859936217600923460|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE2 @ site 1|elapsed 7183
+Sat Feb 15 16:59:07 CST 2020|Site 1|Run 107|Team 12|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Time Limit Exceeded|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 7147
+Sat Feb 15 16:59:43 CST 2020|Site 1|Run 108|Team 12|Teresa--1859936217600923460|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 7183
+Sat Feb 15 16:41:46 CST 2020|Site 1|Run 94|Team 7|Josey--357197599517154132|Solved true|Proxy 0|Deleted false|Judgement Yes|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 6105
+Sat Feb 15 15:46:35 CST 2020|Site 1|Run 50|Team 7|Teresa--1859936217600923460|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 2794
+Sat Feb 15 15:29:46 CST 2020|Site 1|Run 35|Team 8|Irene--5450319172097941720|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 1785
+Sat Feb 15 16:27:02 CST 2020|Site 1|Run 83|Team 10|Maciej--783711973335785520|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5220
+Sat Feb 15 16:27:02 CST 2020|Site 1|Run 83|Team 10|Maciej--783711973335785520|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 5220
+Sat Feb 15 16:59:43 CST 2020|Site 1|Run 108|Team 12|Teresa--1859936217600923460|Solved false|Proxy 0|Deleted false|Judgement No - Wrong Answer|ValJud true|AccHit false|Judge JUDGE1 @ site 1|elapsed 7183

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travis UIL Competition</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<img class="navbar-brand image" src="images/travis_logo.png" alt="Travis Logo">
+      <a class="navbar-brand navbar-center" href="#">UIL Competition</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        <div class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item navbar-right"> <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a> </li>
+        </ul>
+		 <ul class="navbar-nav mr-auto">
+          <li class="nav-item active navbar-right"> <a class="nav-link" href="scoreboard.shtml">Scoreboard <span class="sr-only">(current)</span></a> </li>
+        </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item navbar-right"> <a class="nav-link" href="login.html">Login <span class="sr-only"></span></a> </li>
+          </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item navbar-right"> <a class="nav-link" href="redirect">My Team <span class="sr-only">(current)</span></a> </li>
+          </ul>
+        </div>
+    </nav>
+    <header>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-center">Scoreboard</h1>
+              <p class="text-center">Stop wasting time looking at other people's scores. The only thing that matters right now is <strong>YOU and YOUR SCORE.</strong> Looking at other people's progress will not help you gain extra points.</p>
+              <p class="text-center">Unless the competition is over then do whatever you so desire!&nbsp;</p>
+              <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="downloads/pc2-9.6.0_distribution.zip" role="button">Download PC^2</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-4 mt-2 text-center">
+            <h2 id="scoreboard-title">Scoreboard</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row">
+        <div class="contain">
+			<div class="col-md-12 scrollable" id="scoreboard"> <!--#include file="pc2-9.6.0/bin/html/index.html" -->
+        </div>
+		  </div>
+      </div>
+    </div>
+	  <div class="blank-space-baby"></div>
+	  <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-center">Final Scores</h1>
+				<table width="200" border="1"  class="navbar-center">
+      <tbody>
+        <tr>
+          <th scope="col">Team</th>
+          <th scope="col">Written Store</th>
+          <th scope="col">Programming Score</th>
+          <th scope="col">Final Score</th>
+        </tr>
+        <tr>
+          <th scope="row">Travis1</th>
+          <td>268</td>
+          <td>240</td>
+          <td>508</td>
+        </tr>
+        <tr>
+          <th scope="row">Dulles1</th>
+          <td>450</td>
+          <td>360</td>
+          <td>810</td>
+        </tr>
+        <tr>
+          <th scope="row">Travis2</th>
+          <td>86</td>
+          <td>360</td>
+          <td>446</td>
+        </tr>
+        <tr>
+          <th scope="row">Travis3</th>
+          <td>448</td>
+          <td>410</td>
+          <td>858</td>
+        </tr>
+        <tr>
+          <th scope="row">Clements1</th>
+          <td>650</td>
+          <td>710</td>
+          <td>1360</td>
+        </tr>
+        <tr>
+          <th scope="row">Clements2</th>
+          <td>596</td>
+          <td>355</td>
+          <td>951</td>
+        </tr>
+        <tr>
+          <th scope="row">Clements3</th>
+          <td>568</td>
+          <td>535</td>
+          <td>1103</td>
+        </tr>
+        <tr>
+          <th scope="row">Clements4</th>
+          <td>548</td>
+          <td>355</td>
+          <td>903</td>
+        </tr>
+        <tr>
+          <th scope="row">Mayde Creek1</th>
+          <td>282</td>
+          <td>235</td>
+          <td>517</td>
+        </tr>
+        <tr>
+          <th scope="row">Elkins High School</th>
+          <td>502</td>
+          <td>460</td>
+          <td>962</td>
+        </tr>
+        <tr>
+          <th scope="row">Dawson High School</th>
+          <td>366</td>
+          <td>235</td>
+          <td>601</td>
+        </tr>
+        <tr>
+          <th scope="row">Dulles2</th>
+          <td>518</td>
+          <td>300</td>
+          <td>818</td>
+        </tr>
+        <tr>
+          <th scope="row">Mayde Creek2</th>
+          <td>250</td>
+          <td>235</td>
+          <td>485</td>
+        </tr>
+        <tr>
+          <th scope="row">Elkins HS Individual 1</th>
+          <td>158</td>
+        </tr>
+        <tr>
+          <th scope="row">Elkins HS Individual 2</th>
+          <td>154</td>
+        </tr>
+        <tr>
+          <th scope="row">Elkins HS Individual 3</th>
+          <td>102</td>
+        </tr>
+        <tr>
+          <th scope="row">Dawson Individual 1</th>
+          <td>100</td>
+        </tr>
+      </tbody>
+    </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="container"> </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Made by Hunter Han &amp; Damian Lall &amp; 额利卡</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+	  <script>
+	// javascript
+
+	// Overwrites the "Scoreboard will shut down" message with time
+	var date = new Date();
+
+	let cent = document.getElementsByTagName("center")[0];
+	let title = document.getElementsByTagName("h2")[0];
+	//let h3 = document.getElementsByTagName("h3")[0];
+
+	if(cent == null){
+		let text = document.getElementById("scoreboard");
+		text.innerHTML = "The contest scoreboard hasn't been generated yet, please wait until the contests starts!";
+	}else{
+
+	cent.innerHTML = "Scoreboard updated as of " + date;
+	cent.appendChild(title);
+	//cent.appendChile(h3)
+
+
+	//h3.innerHTML = "Scoreboard updated as of " + date;
+
+	// tr is a NodeList of every HTML object in the blue labels
+	// th is a sublist of tr that contains the objects from "Rank" to the last designation of the problems
+	// u is a sublist of th that contains the HTML string of the labels
+
+	// Overwrites the "Solved" label with "# Solved"
+	let u2 = document.getElementsByTagName("u")[2];
+	u2.innerHTML = "# Solved"
+
+	// Overwrites the "Time" label with "Score"
+	let u3 = document.getElementsByTagName("u")[3];
+	u3.innerHTML = "Score";
+
+	// a simple descending sort for the "Score" collumn
+	let table = document.getElementsByTagName("tbody")[0];
+	let rowshtml = table.children;
+	let rows = [];
+	for(let i = 2; i < rowshtml.length - 1; i++)
+		rows[i - 1] = rowshtml[i];
+	rows.sort((p, n) => {
+		let diff = parseInt(p.children[3].innerHTML) - parseInt(n.children[3].innerHTML);
+		return diff;
+	});
+	const len = table.children.length - 1;
+	for(let i = len; i > 0 ; i--)
+		table.deleteRow(i);
+	for(let i = 0; i < rows.length; i++) {
+		rows[i].children[0].innerHTML = 40 - i;
+		table.children[0].insertAdjacentElement('afterend', rows[i]);
+	}
+	}
+</script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
