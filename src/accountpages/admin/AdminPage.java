@@ -81,7 +81,7 @@ public class AdminPage extends HttpServlet {
                 "              <h1 class=\"text-center\">Welcome Administrator&nbsp;</h1>\n" +
                 "              <p class=\"text-center\">This is where you input written scores!</p>\n" +
                 "              <p class=\"text-center\">Once you enter individual written scores, all scores including programming ones will be automatically added together and placed. A custom scoreboard would be generated. For you, a file with all data will be generated!</p>\n" +
-                "\t\t\t\t<p class=\"text-center\"><a class=\"btn btn-primary btn-lg btn-rounded\" href=\"generateReport\" role=\"button\">Download Score Report</a></p>\n" +
+                "\t\t\t\t<p class=\"text-center\"><a class=\"btn btn-primary btn-lg btn-rounded\" href=\"generateReport\" role=\"button\">Download Score Report</a> <a class=\"btn btn-primary btn-lg btn-rounded\" href=\"authorized-download?id=1\" role=\"button\">Download PC^2 Judge</a></p>\n" +
                 "            </div>\n" +
                 "          </div>\n" +
                 "        </div>\n" +

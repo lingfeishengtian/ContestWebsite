@@ -1,5 +1,6 @@
 package timed;// To save as "<TOMCAT_HOME>\webapps\hello\WEB-INF\classes\HelloServlet.java"
 import login.Authenticator;
+import utils.AuthorizedDownload;
 
 import java.io.*;
 import javax.servlet.*;
@@ -35,29 +36,7 @@ public class DownloadSampleDataIfContestStarted extends HttpServlet {
            OutputStream outStream = response.getOutputStream();
            if (fileDate != null && current.compareTo(fileDate) >= 0) {
                String filePath = relativePath + "WEB-INF/secure-downloads/SampleData.zip";
-               File downloadFile = new File(filePath);
-               FileInputStream inStream = new FileInputStream(downloadFile);
-
-               String mimeType = context.getMimeType(filePath);
-               if (mimeType == null) {
-                   mimeType = "application/octet-stream";
-               }
-               System.out.println("MIME type: " + mimeType);
-
-               response.setContentType(mimeType);
-               response.setContentLength((int) downloadFile.length());
-               String headerKey = "Content-Disposition";
-               String headerValue = String.format("attachment; filename=\"%s\"", downloadFile.getName());
-               response.setHeader(headerKey, headerValue);
-
-               byte[] buffer = new byte[4096];
-               int bytesRead = -1;
-
-               while ((bytesRead = inStream.read(buffer)) != -1) {
-                   outStream.write(buffer, 0, bytesRead);
-               }
-
-               inStream.close();
+               AuthorizedDownload.downloadFile(response, outStream, context, filePath);
            } else {
                response.setContentType("text/html");
                outStream.write("<html><body><script>alert('The contest hasn\\'t started yet!'); window.history.back();</script></body></html>".getBytes());
