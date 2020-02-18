@@ -40,7 +40,7 @@ public class TeamPage extends HttpServlet {
                 "    <meta charset=\"UTF-8\">\n" +
                 "    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n" +
                 "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n" +
-                "    <title>Bootstrap Agency Page Template</title>\n" +
+                "    <title>Team Panel</title>\n" +
                 "    <!-- Bootstrap -->\n" +
                 "    <link href=\"css/bootstrap-4.3.1.css\" rel=\"stylesheet\">\n" +
                 "    <link href=\"css/style.css\" rel=\"stylesheet\">\n" +

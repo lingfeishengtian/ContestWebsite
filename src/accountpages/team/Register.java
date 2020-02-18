@@ -1,6 +1,7 @@
 package accountpages.team;
 
 import login.Authenticator;
+import utils.data_management.DatabaseUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,11 +26,11 @@ public class Register extends HttpServlet {
 
         if(team > 0 && school != null && school.length() >= 3){
             try {
-                Connection connection = RegistrationUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
-                if(RegistrationUtils.hasTeamRegistered(team, connection)){
+                Connection connection = DatabaseUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
+                if(DatabaseUtils.hasTeamRegistered(team, connection)){
                     out.println(Authenticator.generateHTMLMessage("Your team has already registered and we cannot register you again."));
                 }else{
-                    RegistrationUtils.teamRegistration(connection, team, school, name1, name2, name3);
+                    DatabaseUtils.teamRegistration(connection, team, school, name1, name2, name3);
                     out.println(Authenticator.generateHTMLMessage("You have registered!"));
                 }
             } catch (SQLException e) {
