@@ -23,12 +23,14 @@ public class Authenticator {
             Scanner scan;
             for (File text :
                     file.listFiles()) {
-                   scan = new Scanner(text);
-                   int team = Integer.parseInt(text.getName().replace("team", ""));
-                   String sessionID = scan.nextLine().split(":")[1];
-                   if(sessionID.equals(session)){
-                       return team;
-                   }
+                if(!text.getName().startsWith(".")) {
+                    scan = new Scanner(text);
+                    int team = Integer.parseInt(text.getName().replace("team", ""));
+                    String sessionID = scan.nextLine().split(":")[1];
+                    if (sessionID.equals(session)) {
+                        return team;
+                    }
+                }
             }
         }
 
