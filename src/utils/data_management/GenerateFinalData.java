@@ -16,6 +16,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 
+/**
+ * Generates scoreboard data. This is easier if I use the old method of manually generating HTML.
+ *
+ * There are just too many variables involved in the generation and it'd be really annoying to generate it from a jsp file.
+ */
 public class GenerateFinalData {
     public static String generateIndividualReport(Connection connection, boolean writtenOnly, boolean isPublic) throws SQLException {
         Team[] teams = DatabaseUtils.getRegisteredTeams(connection);
@@ -45,7 +50,6 @@ public class GenerateFinalData {
                 "    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n" +
                 "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n" +
                 "    <title>Generated Scoreboard</title>\n" +
-                "    <!-- Bootstrap -->\n" +
                 "    <link href=\"css/bootstrap-4.3.1.css\" rel=\"stylesheet\">\n" +
                 "    <link href=\"css/style.css\" rel=\"stylesheet\">\n" +
                 "  </head>\n" +

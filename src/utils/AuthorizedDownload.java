@@ -1,6 +1,7 @@
 package utils;
 
 import login.Authenticator;
+import utils.data_management.DatabaseUtils;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -9,6 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 @WebServlet("/authorized-download")
 public class AuthorizedDownload extends HttpServlet {
@@ -18,14 +21,33 @@ public class AuthorizedDownload extends HttpServlet {
         int team = Authenticator.getTeamFromSessionID(req.getSession().getId(), getServletContext().getRealPath("") + "WEB-INF/session-tracker");
         OutputStream out = resp.getOutputStream();
 
-        if(team == 0){
+        if(team > -1){
             ServletContext context = getServletContext();
             String relativePath = context.getRealPath("");
 
-            String addon = "pc2-9.6.0-judge.zip";
+            String addon = null;
+            boolean elevatedOrRegistered = false;
+            try {
+                Connection connection = DatabaseUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
+                elevatedOrRegistered = (team == 0 || DatabaseUtils.hasTeamRegistered(team, connection));
+            } catch (SQLException e) {
+                out.write(Authenticator.generateHTMLMessage("A database error occurred.").getBytes());
+                e.printStackTrace();
+            }
 
-            String filePath = relativePath + "WEB-INF/secure-downloads/" + addon;
-            downloadFile(resp, out, context, filePath);
+            if(id.equals("1") && team == 0) {
+                addon = "pc2-9.6.0-judge.zip";
+            }else if(id.equals("2") && elevatedOrRegistered){
+                addon = "pc2-9.6.0_distribution.zip";
+            }else if(id.equals("3") && elevatedOrRegistered){
+                addon = "dryrun.dat";
+            }
+
+            if(addon == null) out.write(Authenticator.generateHTMLMessage("Invalid ID or no authorization! You may not be registered!").getBytes());
+            else {
+                String filePath = relativePath + "WEB-INF/secure-downloads/" + addon;
+                downloadFile(resp, out, context, filePath);
+            }
         }else{
             out.write(Authenticator.generateHTMLMessage("You are not authorized to download this file.").getBytes());
         }

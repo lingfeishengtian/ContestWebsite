@@ -17,7 +17,8 @@ public class DownloadSampleDataIfContestStarted extends HttpServlet {
    @Override
    public void doGet(HttpServletRequest request, HttpServletResponse response)
          throws IOException, ServletException {
-       if(Authenticator.getTeamFromSessionID(request.getSession().getId(), getServletContext().getRealPath("") + "WEB-INF/session-tracker") > -1) {
+       int team = Authenticator.getTeamFromSessionID(request.getSession().getId(), getServletContext().getRealPath("") + "WEB-INF/session-tracker");
+       if(team > -1) {
            ServletContext context = getServletContext();
            String relativePath = context.getRealPath("");
 
@@ -37,10 +38,13 @@ public class DownloadSampleDataIfContestStarted extends HttpServlet {
            if (fileDate != null && current.compareTo(fileDate) >= 0) {
                String filePath = relativePath + "WEB-INF/secure-downloads/SampleData.zip";
                AuthorizedDownload.downloadFile(response, outStream, context, filePath);
+
+               System.out.println("Team " + team + " has downloaded sample data at " + current.toString());
            } else {
                response.setContentType("text/html");
                outStream.write("<html><body><script>alert('The contest hasn\\'t started yet!'); window.history.back();</script></body></html>".getBytes());
            }
+
            outStream.close();
        }else{
            PrintWriter printWriter = response.getWriter();

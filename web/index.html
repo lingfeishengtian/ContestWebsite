@@ -45,7 +45,7 @@
                 document.getElementById("logged-in-status").textContent = response;
               });
           </script>
-          <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="downloads/pc2-9.6.0_distribution.zip" role="button">Download PC^2</a> <a class="btn btn-primary btn-lg btn-rounded" href="redirect" role="button">Go to Team Page</a>
+          <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="redirect" role="button">Go to Team Page</a>
         </div>
       </div>
     </div>
@@ -61,21 +61,6 @@
   </div>
   <div class="container ">
     <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-        <a href="downloads/pc2-9.6.0_distribution.zip"><img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/epicdownloadbutton.png" data-holder-rendered="true"> </a>
-        <h3>PC^2 for Teams</h3>
-        <p>Download this if you want to compete.&nbsp;&nbsp;</p>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-        <a href="downloads/dryrun.dat"><img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/epicdownloadbutton.png" data-holder-rendered="true"> </a>
-        <h3>Dry Run Data</h3>
-        <p>Please download the Dry Run Data and submit it so we can verify your team's presence.&nbsp;</p>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-        <a href="downloads/7zip.zip"><img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/epicdownloadbutton.png" data-holder-rendered="true"> </a>
-        <h3>RAM</h3>
-        <p>If your computer does not have enough RAM and is solving the problem slowly, here is some extra RAM.&nbsp;</p>
-      </div>
       <div class="col-lg-4 col-md-6 col-sm-12 text-center">
         <a href="downloads/idk-8-windows-x64.zip"><img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/epicdownloadbutton.png" data-holder-rendered="true"> </a>
         <h3>JDK 8 Windows x64</h3>
@@ -96,42 +81,6 @@
     </div>
   </div>
 </section>
-<div class="blank-space-baby"></div>
-
-<div class="blank-space-baby"></div>
-<p id="countdownTimer" class="countdown-text"></p>
-<p id="contest-info" class="countdown-text-sub">until contest starts.</p>
-<script>
-  // Set the date we're counting down to
-  var countDownDate = new Date("Feb 15, 2020 15:00:00").getTime();
-
-  // Update the count down every 1 second
-  var x = setInterval(function() {
-
-    // Get today's date and time
-    var now = new Date().getTime();
-
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
-
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    // Display the result in the element with id="demo"
-    document.getElementById("countdownTimer").innerHTML = days + " days " + hours + " hours "
-            + minutes + " minutes " + seconds + " seconds ";
-
-    // If the count down is finished, write some text
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("countdownTimer").innerHTML = "Contest Started!";
-      document.getElementById("contest-info").innerHTML = "";
-    }
-  }, 1000);
-</script>
 <div class="blank-space-baby"></div>
 <footer class="text-center">
   <div class="container">
