@@ -55,7 +55,7 @@ public class TeamPage extends HttpServlet {
                 "      <li class=\"nav-item navbar-right\"> <a class=\"nav-link\" href=\"index.html\">Home <span class=\"sr-only\"></span></a> </li>\n" +
                 "    </ul>\n" +
                 "    <ul class=\"navbar-nav mr-auto\">\n" +
-                "      <li class=\"nav-item navbar-right\"> <a class=\"nav-link\" href=\"scoreboard.shtml\">Scoreboard <span class=\"sr-only\"></span></a> </li>\n" +
+                "      <li class=\"nav-item navbar-right\"> <a class=\"nav-link\" href=\"scoreboard.html\">Scoreboard <span class=\"sr-only\"></span></a> </li>\n" +
                 "    </ul>\n" +
                 "    <ul class=\"navbar-nav mr-auto\">\n" +
                 "      <li class=\"nav-item navbar-right\"> <a class=\"nav-link\" href=\"login.html\">Login <span class=\"sr-only\"></span></a> </li>\n" +

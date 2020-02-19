@@ -1,9 +1,18 @@
 package login;
 
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServletRequest;
 import java.io.*;
 import java.util.Scanner;
 
 public class Authenticator {
+    public static boolean doesUserHaveElevatedPermissions(HttpServletRequest req, ServletContext context) throws FileNotFoundException {
+        if(getTeamFromSessionID(req.getSession().getId(), context.getRealPath("") + "WEB-INF/session-tracker") == 0){
+            return true;
+        }
+        return false;
+    }
+
     public static boolean authenticateUser(int team, String pass, String passwordsPath) throws IOException {
         if(team == 0 && pass.equals("CompsciIsAwesomeCoach")) return true;
         FileReader readfile = new FileReader(passwordsPath);

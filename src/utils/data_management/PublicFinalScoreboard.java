@@ -1,5 +1,6 @@
 package utils.data_management;
 
+import login.Authenticator;
 import utils.data_management.DatabaseUtils;
 import utils.data_management.GenerateFinalData;
 
@@ -19,8 +20,13 @@ public class PublicFinalScoreboard extends HttpServlet {
         PrintWriter out = resp.getWriter();
 
         try {
+            String shouldShowNavBar = req.getParameter("shouldShowNavBar");
+            if(shouldShowNavBar == null) shouldShowNavBar = "y";
+            boolean elevated = Authenticator.doesUserHaveElevatedPermissions(req, getServletContext());
+            System.out.println(elevated);
+
             Connection connection = DatabaseUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
-            out.println(GenerateFinalData.generateLessFinalReport(connection, getServletContext().getRealPath("") + "pc2-9.6.0"));
+            out.println(GenerateFinalData.generateFinalReport(connection, getServletContext().getRealPath("") + "pc2-9.6.0", !elevated, !shouldShowNavBar.substring(0, 1).toLowerCase().startsWith("n")));
         }catch (Exception e){
             e.printStackTrace();
         }

@@ -18,10 +18,9 @@ import java.sql.SQLException;
 public class ModifyScore extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int team = Authenticator.getTeamFromSessionID(req.getSession().getId(),getServletContext().getRealPath("") + "WEB-INF/session-tracker");
         PrintWriter out = resp.getWriter();
 
-        if(team == 0){
+        if(Authenticator.doesUserHaveElevatedPermissions(req, getServletContext())){
             try{
                 Connection connection = DatabaseUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
                 Team[] teams = DatabaseUtils.getRegisteredTeams(connection);
@@ -50,10 +49,8 @@ public class ModifyScore extends HttpServlet {
                 e.printStackTrace();
                 out.println(Authenticator.generateHTMLMessage("Database can't be found error occurred. CONTACT STAFF!"));
             }
-        }else if(team > 0){
-            out.println(Authenticator.generateHTMLMessage("Hey, teams can't access the modification post!"));
         }else{
-            out.println(Authenticator.generateHTMLMessage("You aren't even logged in!"));
+            out.println(Authenticator.generateHTMLMessage("You aren't even logged in or no permission!"));
         }
 
         out.flush();

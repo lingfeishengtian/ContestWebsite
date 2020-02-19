@@ -63,7 +63,7 @@ public class AdminPage extends HttpServlet {
                 "      <li class=\"nav-item navbar-right\"> <a class=\"nav-link\" href=\"index.html\">Home <span class=\"sr-only\"></span></a> </li>\n" +
                 "    </ul>\n" +
                 "    <ul class=\"navbar-nav mr-auto\">\n" +
-                "      <li class=\"nav-item navbar-right\"> <a class=\"nav-link\" href=\"scoreboard.shtml\">Scoreboard <span class=\"sr-only\"></span></a> </li>\n" +
+                "      <li class=\"nav-item navbar-right\"> <a class=\"nav-link\" href=\"scoreboard.html\">Scoreboard <span class=\"sr-only\"></span></a> </li>\n" +
                 "    </ul>\n" +
                 "    <ul class=\"navbar-nav mr-auto\">\n" +
                 "      <li class=\"nav-item navbar-right\"> <a class=\"nav-link\" href=\"login.html\">Login <span class=\"sr-only\"></span></a> </li>\n" +
@@ -81,7 +81,8 @@ public class AdminPage extends HttpServlet {
                 "              <h1 class=\"text-center\">Welcome Administrator&nbsp;</h1>\n" +
                 "              <p class=\"text-center\">This is where you input written scores!</p>\n" +
                 "              <p class=\"text-center\">Once you enter individual written scores, all scores including programming ones will be automatically added together and placed. A custom scoreboard would be generated. For you, a file with all data will be generated!</p>\n" +
-                "\t\t\t\t<p class=\"text-center\"><a class=\"btn btn-primary btn-lg btn-rounded\" href=\"generateReport\" role=\"button\">Download Score Report</a> <a class=\"btn btn-primary btn-lg btn-rounded\" href=\"authorized-download?id=1\" role=\"button\">Download PC^2 Judge</a></p>\n" +
+                "\t\t\t\t<p class=\"text-center\"> <a class=\"btn btn-primary btn-lg btn-rounded\" href=\"authorized-download?id=1\" role=\"button\">Download PC^2 Judge</a></p>\n" +
+                "              <p class=\"text-center\"><a class=\"btn btn-primary btn-lg btn-rounded\" href=\"generateReport\" role=\"button\">Generate Full Score Report</a> <a class=\"btn btn-primary btn-lg btn-rounded\" href=\"generateIndividual?id=1\" role=\"button\">Get Individual Written Scoreboard</a> <a class=\"btn btn-primary btn-lg btn-rounded\" href=\"generateIndividual?id=2\" role=\"button\">Get Individual Programming Scoreboard</a></p>\n" +
                 "            </div>\n" +
                 "          </div>\n" +
                 "        </div>\n" +

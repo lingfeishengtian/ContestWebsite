@@ -8,6 +8,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
 </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -20,7 +21,7 @@
           <li class="nav-item navbar-right"> <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a> </li>
         </ul>
 		 <ul class="navbar-nav mr-auto">
-          <li class="nav-item active navbar-right"> <a class="nav-link" href="scoreboard.shtml">Scoreboard <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item active navbar-right"> <a class="nav-link" href="scoreboard.html">Scoreboard <span class="sr-only">(current)</span></a> </li>
         </ul>
           <ul class="navbar-nav mr-auto">
             <li class="nav-item navbar-right"> <a class="nav-link" href="login.html">Login <span class="sr-only"></span></a> </li>
@@ -38,29 +39,36 @@
               <h1 class="text-center">Scoreboard</h1>
               <p class="text-center">Stop wasting time looking at other people's scores. The only thing that matters right now is <strong>YOU and YOUR SCORE.</strong> Looking at other people's progress will not help you gain extra points.</p>
               <p class="text-center">Unless the competition is over then do whatever you so desire!&nbsp;</p>
-              <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="downloads/pc2-9.6.0_distribution.zip" role="button">Download PC^2</a> <a class="btn btn-primary btn-lg btn-rounded" href="publicfinalscoreboard" role="button">View Final Scoreboard</a> </p>
+              <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="downloads/pc2-9.6.0_distribution.zip" role="button">Download PC^2</a> </p>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mb-4 mt-2 text-center">
-            <h2 id="scoreboard-title">Programming Scoreboard</h2>
-          </div>
-        </div>
-      </div>
-    </section>
     <div class="container">
       <div class="row">
         <div class="contain">
-			<div class="col-md-12 scrollable" id="scoreboard"> <!--#include file="pc2-9.6.0/bin/html/index.html" -->
+          <div class="col-md-12" id="scoreboard"> <!-- #include file="pc2-9.6.0/bin/html/index.html" -->
+          </div>
         </div>
-		  </div>
       </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="contain">
+          <div class="col-md-12" id="finalscoreboard"> <!-- #include file="pc2-9.6.0/bin/html/index.html" -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $.get( "generateIndividual?id=2", function( data ) {
+        document.getElementById('scoreboard').innerHTML = data;
+        $.get( "publicfinalscoreboard?shouldShowNavBar=n", function( data ) {
+          document.getElementById('finalscoreboard').innerHTML = data;
+        });
+      });
+    </script>
     <div class="blank-space-baby"></div>
     <div class="container"> </div>
     <footer class="text-center">
@@ -72,7 +80,7 @@
         </div>
       </div>
     </footer>
-	  <script>
+<!--	  <script>
 	// javascript
 
 	// Overwrites the "Scoreboard will shut down" message with time
@@ -123,10 +131,7 @@
 		table.children[0].insertAdjacentElement('afterend', rows[i]);
 	}
 	}
-</script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-    <script src="js/jquery-3.3.1.min.js"></script> 
-    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+</script>-->
     <script src="js/popper.min.js"></script> 
     <script src="js/bootstrap-4.3.1.js"></script>
   </body>
