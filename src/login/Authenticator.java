@@ -22,7 +22,7 @@ public class Authenticator {
             if(readbuffer.readLine() == null) return false;
         }
 
-        return pass.equals(readbuffer.readLine());
+        return team != 0 && pass.equals(readbuffer.readLine());
     }
 
     public static int getTeamFromSessionID(String session, String sessionPath) throws FileNotFoundException {

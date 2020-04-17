@@ -26,11 +26,10 @@ public class Register extends HttpServlet {
 
         if(team > 0 && school != null && school.length() >= 3){
             try {
-                Connection connection = DatabaseUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
-                if(DatabaseUtils.hasTeamRegistered(team, connection)){
+                if(DatabaseUtils.hasTeamRegistered(team)){
                     out.println(Authenticator.generateHTMLMessage("Your team has already registered and we cannot register you again."));
                 }else{
-                    DatabaseUtils.teamRegistration(connection, team, school, name1, name2, name3);
+                    DatabaseUtils.teamRegistration(team, school, name1, name2, name3);
                     out.println(Authenticator.generateHTMLMessage("You have registered!"));
                 }
             } catch (SQLException e) {

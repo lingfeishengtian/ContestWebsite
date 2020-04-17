@@ -1,14 +1,18 @@
 package utils.data_management;
 
+import login.Authenticator;
+import utils.types.Appeal;
 import utils.types.Team;
 
+import javax.xml.crypto.Data;
+import java.io.*;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class DatabaseUtils {
-    // INSERT CODE: INSERT INTO Registration1 VALUES(1, "FUCK", 132, "DIDDY", 123, "PPSUCK", 53, 123)
     private static Connection connection;
-    final static String SQLCreateNewTableCode = "CREATE TABLE Registration(\n" +
+    final static String SQLCreateNewRegistrationTable = "CREATE TABLE Registration(\n" +
             "  TeamNumber int NOT NULL,\n" +
             "  SchoolName varchar(225) NOT NULL,\n" +
             "  Teammate1Name varchar(225),\n" +
@@ -19,39 +23,158 @@ public class DatabaseUtils {
             "  Teammate3Written int,\n" +
             "  ProgrammingScore INT\n" +
             ");";
+    final static String SQLCreateNewAppealsTable = "CREATE TABLE Appeals(\n" +
+            "  ProblemNumber int NOT NULL,\n" +
+            "  Team int NOT NULL,\n" +
+            "  Status varchar(225)\n" +
+            ");";
 
-    public static void main(String[] args) throws SQLException {
+    public static void setConnection(String path) throws SQLException {
+        if (DatabaseUtils.connection == null) {
+            DatabaseUtils.connection = getConnection(path);
+        }
+    }
+
+    public static void main(String[] args) throws SQLException, IOException {
         System.out.println("TEST DATABASE WORKS");
 
-        Connection a = connect("/Users/hunterhan/IdeaProjects/ComputerScienceContestWebsite/out/artifacts/");
-        tableCheck(a);
-        System.out.println(hasTeamRegistered(1, a));
-        teamRegistration(a, 2, "Clements HS", "Yifan Ma", "POLP Ma", "Daniaaaal PEEPEE");
+        String relativePath = "/Users/hunterhan/IdeaProjects/ComputerScienceContestWebsite/out/artifacts/";
+        setConnection(relativePath);
+        CreateAppeal(new Appeal(4, 2, "oops", "Unresolved"), relativePath);
+        System.out.println(GetAppealsForTeam(2, relativePath));
+        System.out.println(GetAppealsForTeam(1, relativePath));
+        System.out.println(GetAppeals(relativePath));
     }
 
-    public static void updateTeamProgrammingScore(Connection connection, int team, int programmingScore) throws SQLException {
-        String sql = "UPDATE Registration\n" +
-                "SET ProgrammingScore = " + programmingScore + "\n" +
-                "WHERE TeamNumber = " + team + ";";
+    public static void CreateAppeal(Appeal a, String relativePath) throws SQLException, IOException {
+        String sql = "INSERT INTO Appeals VALUES(?, ?, ?)";
 
-        PreparedStatement statement = connection.prepareStatement(sql);
-        statement.execute();
-    }
+        String fileName = "team" + a.getTeam() + "problem" + a.getProblemNumber();
+        if(!DoesAppealExist(a)) {
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setInt(1, a.getProblemNumber());
+            statement.setInt(2, a.getTeam());
+            statement.setString(3, a.getStatus());
+            statement.execute();
+        }else{
+            sql = "UPDATE Appeals SET Status=? WHERE ProblemNumber=? AND Team=?";
 
-    public static void updateTeamValues(Connection connection, int team, String school, String teammate1, int teammate1score, String teammate2, int teammate2score, String teammate3, int teammate3score) throws SQLException {
-        String sql = "UPDATE Registration\n" +
-                "SET SchoolName = \"" + school + "\", Teammate1Name = \"" + teammate1 + "\", Teammate1Written = " + teammate1score + ", Teammate2Name = \"" + teammate2 + "\", Teammate2Written = " + teammate2score + ", Teammate3Name = \"" + teammate3 + "\", Teammate3Written = " + teammate3score +  "\n" +
-                "WHERE TeamNumber = " + team + ";";
-
-        PreparedStatement statement = connection.prepareStatement(sql);
-        statement.execute();
-    }
-
-    public static Connection getConnectionAndAutoCheck(String path) throws SQLException {
-        if (connection == null) {
-            connection = getConnection(path);
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setString(1, a.getStatus());
+            statement.setInt(2, a.getProblemNumber());
+            statement.setInt(3, a.getTeam());
+            statement.execute();
         }
-        return connection;
+
+        File appealsDir = new File(relativePath + "WEB-INF/appeals");
+        if (appealsDir.exists()) {
+            FileWriter myWriter = new FileWriter(relativePath + "WEB-INF/appeals/" + fileName + ".txt");
+
+            myWriter.write(a.getMessage());
+            myWriter.close();
+        } else {
+            throw new FileNotFoundException(appealsDir.getPath() + " does not exist!");
+        }
+    }
+
+    public static boolean DoesAppealExist(Appeal a) throws SQLException {
+        String sql = "SELECT * FROM Appeals WHERE ProblemNumber = ? AND Team = ?";
+
+        PreparedStatement stmt = connection.prepareStatement(sql);
+        stmt.setInt(1, a.getProblemNumber());
+        stmt.setInt(2, a.getTeam());
+        ResultSet rs = stmt.executeQuery();
+
+        return rs.next();
+    }
+
+    public static ArrayList<Appeal> GetAppeals(String relativePath) throws SQLException, IOException {
+        String sql = "SELECT * FROM Appeals";
+
+        Statement stmt = connection.createStatement();
+        ResultSet rs = stmt.executeQuery(sql);
+
+        ArrayList<Appeal> appeals = getAppealsFromDir(relativePath, rs);
+
+        return appeals;
+    }
+
+    public static ArrayList<Appeal> GetAppealsForTeam(int team, String relativePath) throws SQLException, IOException {
+        String sql = "SELECT * FROM Appeals\n" +
+                "WHERE Team = ?";
+        PreparedStatement statement = connection.prepareStatement(sql);
+        statement.setInt(1, team);
+        ResultSet result = statement.executeQuery();
+
+        ArrayList<Appeal> appeals = getAppealsFromDir(relativePath, result);
+
+        return appeals;
+    }
+
+    private static ArrayList<Appeal> getAppealsFromDir(String relativePath, ResultSet result) throws SQLException, IOException {
+        ArrayList<Appeal> appeals = new ArrayList<>();
+
+        File appealsDir = new File(relativePath + "WEB-INF/appeals");
+        if (appealsDir.exists()) {
+            while(result.next()){
+                Appeal a = new Appeal(result.getInt("ProblemNumber"), result.getInt("Team"), result.getString("Status"));
+                String fileName = "team" + a.getTeam() + "problem" + a.getProblemNumber();
+
+                File file = new File(relativePath + "WEB-INF/appeals/" + fileName + ".txt");
+                FileInputStream fis = new FileInputStream(file);
+                byte[] data = new byte[(int) file.length()];
+                fis.read(data);
+                fis.close();
+
+                String str = new String(data, "UTF-8");
+
+                a.setMessage(str);
+                appeals.add(a);
+            }
+        } else {
+            throw new FileNotFoundException(appealsDir.getPath() + " does not exist!");
+        }
+        return appeals;
+    }
+
+    public static void SolveAppeal(Appeal a) throws SQLException {
+        String sql = "UPDATE Appeals\n" +
+                "SET STATUS = ?\n" +
+                "WHERE ProblemNumber = ? AND Team = ?;";
+
+        PreparedStatement statement = connection.prepareStatement(sql);
+        statement.setString(1, a.getStatus());
+        statement.setInt(2, a.getProblemNumber());
+        statement.setInt(3, a.getTeam());
+        statement.execute();
+    }
+
+    public static void updateTeamProgrammingScore(int team, int programmingScore) throws SQLException {
+        String sql = "UPDATE Registration\n" +
+                "SET ProgrammingScore = ?\n" +
+                "WHERE TeamNumber = ?;";
+
+        PreparedStatement statement = connection.prepareStatement(sql);
+        statement.setInt(1 ,programmingScore);
+        statement.setInt(2 ,team);
+        statement.execute();
+    }
+
+    public static void updateTeamValues(int team, String school, String teammate1, int teammate1score, String teammate2, int teammate2score, String teammate3, int teammate3score) throws SQLException {
+        String sql = "UPDATE Registration\n" +
+                "SET SchoolName = ?, Teammate1Name = ?, Teammate1Written = ?, Teammate2Name = ?, Teammate2Written = ?, Teammate3Name = ?, Teammate3Written = ?\n" +
+                "WHERE TeamNumber = ?;";
+
+        PreparedStatement statement = connection.prepareStatement(sql);
+        statement.setString(1, school);
+        statement.setString(2, teammate1);
+        statement.setInt(3, teammate1score);
+        statement.setString(4, teammate2);
+        statement.setInt(5, teammate2score);
+        statement.setString(6, teammate3);
+        statement.setInt(7, teammate3score);
+        statement.setInt(8, team);
+        statement.execute();
     }
 
     private static Connection getConnection(String path) throws SQLException {
@@ -66,7 +189,7 @@ public class DatabaseUtils {
         return a;
     }
 
-    public static Team[] getRegisteredTeams(Connection connection) throws SQLException {
+    public static Team[] getRegisteredTeams() throws SQLException {
         String sql = "SELECT * FROM Registration";
         ArrayList<Team> teams = new ArrayList<>();
 
@@ -92,23 +215,33 @@ public class DatabaseUtils {
         return teams.toArray(new Team[0]);
     }
 
-    public static void teamRegistration(Connection connection, int team, String schoolName, String name1, String name2, String name3) throws SQLException {
-        String sql = "INSERT INTO Registration VALUES(" + team + ", \"" + schoolName + "\" , \""  + name1 + "\", NULL, \"" + name2 + "\", NULL, \"" + name3 + "\", NULL, NULL)";
+    public static void teamRegistration(int team, String schoolName, String name1, String name2, String name3) throws SQLException {
+        String sql = "INSERT INTO Registration VALUES(?, ?, ?, NULL, ?, NULL, ?, NULL, NULL)";
 
         PreparedStatement statement = connection.prepareStatement(sql);
+        statement.setInt(1, team);
+        statement.setString(2, schoolName);
+        statement.setString(3, name1);
+        statement.setString(4, name2);
+        statement.setString(5, name3);
         statement.execute();
     }
 
     private static void tableCheck(Connection connection) throws SQLException {
         DatabaseMetaData dbm = connection.getMetaData();
         ResultSet tables = dbm.getTables(null, null, "Registration", null);
+        ResultSet tables1 = dbm.getTables(null, null, "Appeals", null);
         if (!tables.next()) {
-            PreparedStatement create = connection.prepareStatement(SQLCreateNewTableCode);
+            PreparedStatement create = connection.prepareStatement(SQLCreateNewRegistrationTable);
+            create.execute();
+        }
+        if (!tables1.next()) {
+            PreparedStatement create = connection.prepareStatement(SQLCreateNewAppealsTable);
             create.execute();
         }
     }
 
-    public static boolean hasTeamRegistered(int team, Connection connection) throws SQLException {
+    public static boolean hasTeamRegistered(int team) throws SQLException {
         String sql = "SELECT TeamNumber FROM Registration";
 
         Statement stmt  = connection.createStatement();

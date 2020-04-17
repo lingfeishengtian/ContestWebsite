@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -17,19 +18,18 @@ import java.sql.SQLException;
 @WebServlet("/editscore")
 public class ModifyScore extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         PrintWriter out = resp.getWriter();
 
         if(Authenticator.doesUserHaveElevatedPermissions(req, getServletContext())){
             try{
-                Connection connection = DatabaseUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
-                Team[] teams = DatabaseUtils.getRegisteredTeams(connection);
+                Team[] teams = DatabaseUtils.getRegisteredTeams();
 
                 for (Team teamObj :
                         teams) {
                     String teamNum = req.getParameter("team" + teamObj.team);
                     if(teamNum != null) {
-                        DatabaseUtils.updateTeamValues(connection,
+                        DatabaseUtils.updateTeamValues(
                                 Integer.parseInt(teamNum),
                                 req.getParameter("school" + teamNum),
                                 req.getParameter(teamNum + "teammate1"),

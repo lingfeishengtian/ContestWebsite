@@ -22,20 +22,20 @@ import java.util.Comparator;
  * There are just too many variables involved in the generation and it'd be really annoying to generate it from a jsp file.
  */
 public class GenerateFinalData {
-    public static String generateIndividualReport(Connection connection, boolean writtenOnly, boolean isPublic) throws SQLException {
-        Team[] teams = DatabaseUtils.getRegisteredTeams(connection);
+    public static String generateIndividualReport(boolean writtenOnly, boolean isPublic) throws SQLException {
+        Team[] teams = DatabaseUtils.getRegisteredTeams();
 
         Arrays.sort(teams, (o1, o2) -> o2.programmingScore - o1.programmingScore);
 
         return generateScoreboard(teams, isPublic, writtenOnly, !writtenOnly, false);
     }
 
-    public static String generateFinalReport(Connection connection, String pc2root, boolean isPub, boolean includeNavBar) throws IOException, SQLException {
-        if(!updateProgrammingScoreDataInDatabase(connection, pc2root)){
+    public static String generateFinalReport(String pc2root, boolean isPub, boolean includeNavBar) throws IOException, SQLException {
+        if(!updateProgrammingScoreDataInDatabase(pc2root)){
             return Authenticator.generateHTMLMessage("Contest programming file doesn't exist.");
         }
 
-        Team[] teams = DatabaseUtils.getRegisteredTeams(connection);
+        Team[] teams = DatabaseUtils.getRegisteredTeams();
 
         Arrays.sort(teams, (o1, o2) -> o2.getFinalScore() - o1.getFinalScore());
 
@@ -173,7 +173,7 @@ public class GenerateFinalData {
         return htmlF + htmlB;
     }
 
-    private static boolean updateProgrammingScoreDataInDatabase(Connection connection, String pc2Root) throws IOException {
+    private static boolean updateProgrammingScoreDataInDatabase(String pc2Root) throws IOException {
         File file = new File(pc2Root + File.separator + "bin" + File.separator + "html" + File.separator + "index.html");
 
         if(!file.exists()){
@@ -188,7 +188,7 @@ public class GenerateFinalData {
                 int programmingScore = Integer.parseInt(td.get(4).text().trim());
 
                 try {
-                    DatabaseUtils.updateTeamProgrammingScore(connection, team, programmingScore);
+                    DatabaseUtils.updateTeamProgrammingScore(team, programmingScore);
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }

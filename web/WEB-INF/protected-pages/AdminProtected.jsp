@@ -63,6 +63,20 @@
               </div>
         </div>
     </div>
+<div class="blank-space-baby"></div>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Open Appeals</h1>
+                <p class="text-center">You can manually resolve appeals here and give a reason for the rejection or approval. The appeals are ordered by "whether unresolved or not" to "team number" then "problem number".</p>
+                <div class="row-horz">
+                    <%=request.getAttribute("appealRowElements")%>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div></div>
     <footer class="text-center">
     <div class="container">

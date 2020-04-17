@@ -21,8 +21,7 @@ public class AdminReport extends HttpServlet {
 
         if(Authenticator.doesUserHaveElevatedPermissions(req, getServletContext())) {
             try {
-                Connection connection = DatabaseUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
-                out.println(GenerateFinalData.generateFinalReport(connection, getServletContext().getRealPath("") + "pc2-9.6.0", false, false));
+                out.println(GenerateFinalData.generateFinalReport(getServletContext().getRealPath("") + "pc2-9.6.0", false, false));
             } catch (Exception e) {
                 e.printStackTrace();
             }

@@ -27,12 +27,10 @@ public class IndividualScoreReport extends HttpServlet {
 
         try {
             String id = req.getParameter("id");
-            Connection connection = DatabaseUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
-
             if(id.equals("1") && elevated) {
-                out.println(GenerateFinalData.generateIndividualReport(connection, true, false));
+                out.println(GenerateFinalData.generateIndividualReport(true, false));
             }else if(id.equals("2")) {
-                out.println(GenerateFinalData.generateIndividualReport(connection, false, !elevated));
+                out.println(GenerateFinalData.generateIndividualReport(false, !elevated));
             }else{
                 out.println(Authenticator.generateHTMLMessage("That is not a valid ID or you do not have permission."));
             }

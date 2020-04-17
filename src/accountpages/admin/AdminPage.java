@@ -2,6 +2,7 @@ package accountpages.admin;
 
 import login.Authenticator;
 import utils.data_management.DatabaseUtils;
+import utils.data_management.GenerateAppealRow;
 import utils.types.Team;
 
 import javax.servlet.ServletException;
@@ -23,8 +24,8 @@ public class AdminPage extends HttpServlet {
 
         if(team == 0){
             try{
-                Connection connection = DatabaseUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
-                req.setAttribute("formData", generateEditTemplate(DatabaseUtils.getRegisteredTeams(connection)));
+                req.setAttribute("formData", generateEditTemplate(DatabaseUtils.getRegisteredTeams()));
+                req.setAttribute("appealRowElements", GenerateAppealRow.getAppealRowForAdmin(DatabaseUtils.GetAppeals(getServletContext().getRealPath(""))));
                 req.getRequestDispatcher("/WEB-INF/protected-pages/AdminProtected.jsp").forward(req, resp);
             } catch (SQLException e) {
                 e.printStackTrace();

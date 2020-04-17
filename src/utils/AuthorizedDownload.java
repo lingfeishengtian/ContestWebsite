@@ -28,8 +28,7 @@ public class AuthorizedDownload extends HttpServlet {
             String addon = null;
             boolean elevatedOrRegistered = false;
             try {
-                Connection connection = DatabaseUtils.getConnectionAndAutoCheck(getServletContext().getRealPath(""));
-                elevatedOrRegistered = (team == 0 || DatabaseUtils.hasTeamRegistered(team, connection));
+                elevatedOrRegistered = (team == 0 || DatabaseUtils.hasTeamRegistered(team));
             } catch (SQLException e) {
                 out.write(Authenticator.generateHTMLMessage("A database error occurred.").getBytes());
                 e.printStackTrace();
@@ -43,7 +42,7 @@ public class AuthorizedDownload extends HttpServlet {
                 addon = "dryrun.dat";
             }
 
-            if(addon == null) out.write(Authenticator.generateHTMLMessage("Invalid ID or no authorization! You may not be registered!").getBytes());
+            if(addon == null) out.write(Authenticator.generateHTMLMessage("Invalid ID or no authorization! Are you registered yet?").getBytes());
             else {
                 String filePath = relativePath + "WEB-INF/secure-downloads/" + addon;
                 downloadFile(resp, out, context, filePath);

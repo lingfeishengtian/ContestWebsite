@@ -97,3 +97,28 @@ tr:last-child td:last-child { border-bottom-right-radius: 10px; }
 	width: 10%;
 	padding: 5px;
 }
+
+.row-horz{
+	 overflow: auto;
+	 white-space: nowrap;
+ }
+
+.row-horz div{
+	display: inline-block;
+	border-radius: 25px;
+	padding: 20px;
+	width: 400px;
+	word-wrap: normal;
+	word-break: break-all;
+	white-space: normal;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.gray-back-div{
+	background: #e9ecef;
+}
+
+.white-back-div {
+	background: #ffffff;
+}

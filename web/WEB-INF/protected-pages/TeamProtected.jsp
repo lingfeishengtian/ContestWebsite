@@ -128,7 +128,7 @@
         <div class="row">
             <div class="col-12">
                 <h1 class="text-center">Appeals</h1>
-                <p class="text-center">After the competition is over, you can submit appeals here. But you only have 10 minutes after the competition before appeals are closed! You may only submit one appeal for each problem. Submitting an appeal for the same problem will override the old one.</p>
+                <p class="text-center">After the competition is over, you can submit appeals here. But you only have 10 minutes after the competition before appeals are closed! You may only submit one appeal for each problem. Submitting an appeal for the same problem will override the old one. Once the status for your problem has been changed, the admins will not check your appeal again.</p>
                 <div class="col-12 col-md-8 mx-auto">
                     <div class="row text-center">
                         <div class="text-center col-12">
@@ -155,6 +155,22 @@
         </div>
     </div>
 </div>
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">My Appeals</h1>
+                <p class="text-center">These are the appeals that you have submitted.<br>Refresh to update status!</p>
+                <div class="col-12 col-md-8 mx-auto">
+                    <div class="row-horz">
+                        <%=request.getAttribute("appealRowElements")%>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="blank-space-baby"></div>
 <footer class="text-center">
     <div class="container">
         <div class="row">

@@ -1,6 +1,8 @@
 package accountpages.team;
 
 import login.Authenticator;
+import utils.data_management.DatabaseUtils;
+import utils.data_management.GenerateAppealRow;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -10,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.SQLException;
 
 @WebServlet("/team")
 public class TeamPage extends HttpServlet {
@@ -24,7 +27,16 @@ public class TeamPage extends HttpServlet {
 
         if(team > 0){
             req.setAttribute("teamNum", team);
-            req.getRequestDispatcher("WEB-INF/protected-pages/TeamProtected.jsp").forward(req, resp);
+            try {
+                req.setAttribute("appealRowElements", GenerateAppealRow.getAppealRowForTeam(DatabaseUtils.GetAppealsForTeam(team, path)));
+                req.getRequestDispatcher("WEB-INF/protected-pages/TeamProtected.jsp").forward(req, resp);
+            } catch (SQLException e) {
+                e.printStackTrace();
+                out.println(Authenticator.generateHTMLMessage("An SQL error occurred, contact the admin and let him know to check logs!"));
+            } catch (Exception e) {
+                e.printStackTrace();
+                out.println(Authenticator.generateHTMLMessage("An unexpected error occurred, contact the admin immediately!"));
+            }
         } else if(team == 0){
             out.println(Authenticator.generateHTMLMessage("You are an administrator! Don't go to the team panel!"));
         } else {
