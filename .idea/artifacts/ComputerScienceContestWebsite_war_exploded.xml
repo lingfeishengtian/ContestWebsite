@@ -6,11 +6,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="ComputerScienceContestWebsite" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="lib" />
-        </element>
       </element>
       <element id="javaee-facet-resources" facet="ComputerScienceContestWebsite/web/Web" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
     </root>
   </artifact>
 </component>
