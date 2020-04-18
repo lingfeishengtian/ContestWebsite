@@ -1,1 +1,6 @@
 Remember to delete all the files under the folder appeals and session-tracker before a new website!
+
+https://www.codejava.net/servers/tomcat/how-to-use-virtual-hosts-in-tomcat
+Read that article for setting up hosts!
+
+Don't forget to shutdown tomcat documentation!

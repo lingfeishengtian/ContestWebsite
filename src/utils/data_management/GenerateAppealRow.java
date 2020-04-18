@@ -49,7 +49,7 @@ public class GenerateAppealRow {
                             "                        <input type=\"hidden\" name=\"team\" value=\"" + a.getTeam() + "\" />" +
                             "                        <input type=\"hidden\" name=\"probNum\" value=\"" + a.getProblemNumber() + "\" />" +
                             "                        <input type=\"text\" class=\"form-control\" id=\"problem\" name=\"status\" placeholder=\"" + a.getStatus() + "\" aria-describedby=\"emailHelp\">\n" +
-                            "                        <br><button onclick=\"reload()\" type=\"submit\" id=\"statusSubmit\" class=\"btn btn-primary btn-lg\"> Set</button>\n" +
+                            "                        <br><button onclick=\"window.location.reload(false)\" type=\"submit\" id=\"statusSubmit\" class=\"btn btn-primary btn-lg\"> Set</button>\n" +
                             "                        </form>\n" +
                             "                    </div>";
         }

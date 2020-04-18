@@ -14,6 +14,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Arrays;
+import java.util.Comparator;
 
 @WebServlet("/admin")
 public class AdminPage extends HttpServlet {
@@ -44,11 +46,13 @@ public class AdminPage extends HttpServlet {
     }
 
     private String generateEditTemplate(Team[] teams){
+        Arrays.sort(teams, Comparator.comparingInt(o -> o.team));
         String html = "";
         for(Team teamObj : teams) {
             int team = teamObj.team;
             html +=  "                <div class=\"form-group\">\n" +
-                    "                  <input readonly type=\"number\" class=\"team-form form-control-multi\" id=\"team" + team + "\" name=\"team" + team + "\" placeholder=\"Team X\" aria-describedby=\"team\" value=\"" + team + "\">\n" +
+                    "                  <label for=\"team\">Team " + team + ": </label>\n" +
+                    "                  <input readonly type=\"hidden\" class=\"team-form form-control-multi\" id=\"team" + team + "\" name=\"team" + team + "\" placeholder=\"Team X\" aria-describedby=\"team\" value=\"" + team + "\">\n" +
                     "                  <input type=\"text\" class=\"name-form form-control-multi\" id=\"school" + team + "\" name=\"school" + team + "\" placeholder=\"School\" aria-describedby=\"school\" value=\"" + teamObj.school + "\">\n" +
                     "                  <input type=\"text\" class=\"name-form form-control-multi\" id=\"" + team + "teammate1\" name=\"" + team + "teammate1\" placeholder=\"Teammate 1\" aria-describedby=\"teammate\" value=\"" + teamObj.teammate1 + "\">\n" +
                     "                  <input type=\"number\" class=\"team-form form-control-multi\" id=\"" + team + "score1\" name=\"" + team + "score1\" placeholder=\"Score 1\" aria-describedby=\"team\" value=\"" + teamObj.teammate1score + "\">\n" +
