@@ -22,7 +22,10 @@ import java.util.Comparator;
  * There are just too many variables involved in the generation and it'd be really annoying to generate it from a jsp file.
  */
 public class GenerateFinalData {
-    public static String generateIndividualReport(boolean writtenOnly, boolean isPublic) throws SQLException {
+    public static String generateIndividualReport(String pc2root, boolean writtenOnly, boolean isPublic) throws SQLException, IOException {
+        if(!updateProgrammingScoreDataInDatabase(pc2root)){
+            return Authenticator.generateHTMLMessage("Contest programming file doesn't exist.");
+        }
         Team[] teams = DatabaseUtils.getRegisteredTeams();
 
         Arrays.sort(teams, (o1, o2) -> o2.programmingScore - o1.programmingScore);
@@ -96,14 +99,11 @@ public class GenerateFinalData {
                 Collections.addAll(teammates, team.getAllTeammates());
             }
 
-            teammates.sort(new Comparator<Teammate>() {
-                @Override
-                public int compare(Teammate o1, Teammate o2) {
-                    if(o2.written == o1.written){
-                        return o2.associatedTeam.programmingScore - o1.associatedTeam.programmingScore;
-                    }else{
-                        return o2.written - o1.written;
-                    }
+            teammates.sort((o1, o2) -> {
+                if(o2.written == o1.written){
+                    return o2.associatedTeam.programmingScore - o1.associatedTeam.programmingScore;
+                }else{
+                    return o2.written - o1.written;
                 }
             });
 

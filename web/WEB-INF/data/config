@@ -1,0 +1,3 @@
+; Admin password to access the admin panel on the website. To login to the admin, use 0 as a team number.
+; There can only be one admin because I am too lazy to save specific changes to accounts on the database.
+admin-password:default

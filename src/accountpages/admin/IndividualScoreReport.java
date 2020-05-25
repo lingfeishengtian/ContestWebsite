@@ -28,9 +28,9 @@ public class IndividualScoreReport extends HttpServlet {
         try {
             String id = req.getParameter("id");
             if(id.equals("1") && elevated) {
-                out.println(GenerateFinalData.generateIndividualReport(true, false));
+                out.println(GenerateFinalData.generateIndividualReport(getServletContext().getRealPath("") + "WEB-INF/pc2-9.6.0",true, false));
             }else if(id.equals("2")) {
-                out.println(GenerateFinalData.generateIndividualReport(false, !elevated));
+                out.println(GenerateFinalData.generateIndividualReport(getServletContext().getRealPath("") + "WEB-INF/pc2-9.6.0",false, !elevated));
             }else{
                 out.println(Authenticator.generateHTMLMessage("That is not a valid ID or you do not have permission."));
             }
