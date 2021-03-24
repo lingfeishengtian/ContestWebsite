@@ -1,0 +1,8 @@
+The listed files are in the template below:
+[name of file]: [download link]
+
+7zip.zip: https://www.7-zip.org/a/7z1900-x64.exe
+idk-8-windows-x32.zip: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+idk-8-windows-x64.zip: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+jdk-7u45-apidocs.zip: https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html
+jdk-8-mac.zip: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
