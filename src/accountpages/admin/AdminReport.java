@@ -21,7 +21,7 @@ public class AdminReport extends HttpServlet {
 
         if(Authenticator.doesUserHaveElevatedPermissions(req, getServletContext())) {
             try {
-                out.println(GenerateFinalData.generateFinalReport(getServletContext().getRealPath("") + "pc2-9.6.0", false, false));
+                out.println(GenerateFinalData.generateFinalReport(getServletContext().getRealPath("") + "WEB-INF/pc2-9.6.0", false, false));
             } catch (Exception e) {
                 e.printStackTrace();
             }

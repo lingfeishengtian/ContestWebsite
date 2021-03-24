@@ -23,7 +23,7 @@ public class PublicFinalScoreboard extends HttpServlet {
             String shouldShowNavBar = req.getParameter("shouldShowNavBar");
             if(shouldShowNavBar == null) shouldShowNavBar = "y";
             boolean elevated = Authenticator.doesUserHaveElevatedPermissions(req, getServletContext());
-            out.println(GenerateFinalData.generateFinalReport(getServletContext().getRealPath("") + "pc2-9.6.0", !elevated, !shouldShowNavBar.substring(0, 1).toLowerCase().startsWith("n")));
+            out.println(GenerateFinalData.generateFinalReport(getServletContext().getRealPath("") + "WEB-INF/pc2-9.6.0", !elevated, !shouldShowNavBar.substring(0, 1).toLowerCase().startsWith("n")));
         }catch (Exception e){
             e.printStackTrace();
         }
