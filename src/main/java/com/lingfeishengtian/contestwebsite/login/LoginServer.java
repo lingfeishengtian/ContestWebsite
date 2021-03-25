@@ -18,7 +18,7 @@ public class LoginServer extends HttpServlet {
 
         String sessionID = req.getSession().getId();
 
-        int team = Authenticator.getTeamFromSessionID(sessionID, relativePath + "WEB-INF/session-tracker");
+        int team = Authenticator.getTeamFromSessionID(sessionID);
         if(team > 0) {
             out.println("Logged in as team" + team + ".");
         }else if(team == 0){
@@ -37,32 +37,15 @@ public class LoginServer extends HttpServlet {
         ServletContext context = getServletContext();
         String relativePath = context.getRealPath("");
 
+        PrintWriter out = resp.getWriter();  
         String sessionID = req.getSession().getId();
 
-        PrintWriter out = resp.getWriter();
+        int team = Integer.parseInt(user);
+        
+        if(team >= -1){
+            boolean isAuth = Authenticator.authenticateUser(team, password, relativePath + "WEB-INF/data/passwords.txt", sessionID);
 
-        int team = Authenticator.getTeamFromSessionID(sessionID, relativePath + "WEB-INF/session-tracker");
-        try{
-            if(team > -1){
-                File fold = new File(relativePath + "WEB-INF/session-tracker/team" + team);
-                fold.delete();
-            }
-            team = Integer.parseInt(user);
-            if(team <= -1) return;
-        }catch (Exception e){
-            out.println(Authenticator.generateHTMLMessage("That is not a team number!"));
-        }finally {
-            boolean isAuth = Authenticator.authenticateUser(team, password, relativePath + "WEB-INF/data/passwords.txt");
-
-            if(isAuth) {
-                File dir = new File(relativePath + "WEB-INF/session-tracker");
-                if (!dir.exists()) dir.mkdir();
-
-                FileWriter writer = new FileWriter(dir.getAbsolutePath() + File.separator + "team" + team);
-                writer.write("Client Session ID:" + sessionID + "\n");
-                writer.write("Client IP:" + req.getRemoteAddr());
-                writer.close();
-
+            if(isAuth){
                 if(team > 0)
                     resp.sendRedirect("team");
                 else
@@ -71,7 +54,8 @@ public class LoginServer extends HttpServlet {
                 out.println(Authenticator.generateHTMLMessage("Invalid User or Password!"));
             }
         }
-
+        
+        out.println(Authenticator.generateHTMLMessage("No account found."));
         out.flush();
     }
 }

@@ -21,7 +21,7 @@ public class Register extends HttpServlet {
         String name1 = req.getParameter("name1");
         String name2 = req.getParameter("name2");
         String name3 = req.getParameter("name3");
-        int team = Authenticator.getTeamFromSessionID(req.getSession().getId(), getServletContext().getRealPath("") + "WEB-INF/session-tracker");
+        int team = Authenticator.getTeamFromSessionID(req.getSession().getId());
         PrintWriter out = resp.getWriter();
 
         if(team > 0 && school != null && school.length() >= 3){

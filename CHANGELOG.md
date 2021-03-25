@@ -10,3 +10,9 @@ Additions
 - Added many options to the configurations file
 - Optimizations and Cleanup
 - Moved project to Maven
+
+# Version 1.2
+Changes
+
+- Changed the security system so that it longer logs IP
+- There is no longer a need for the session tracker folder as sessions are stored in memory

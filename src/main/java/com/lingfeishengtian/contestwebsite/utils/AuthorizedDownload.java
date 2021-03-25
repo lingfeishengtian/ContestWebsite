@@ -18,7 +18,7 @@ public class AuthorizedDownload extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String id = req.getParameter("id");
-        int team = Authenticator.getTeamFromSessionID(req.getSession().getId(), getServletContext().getRealPath("") + "WEB-INF/session-tracker");
+        int team = Authenticator.getTeamFromSessionID(req.getSession().getId());
         OutputStream out = resp.getOutputStream();
 
         if(team > -1){

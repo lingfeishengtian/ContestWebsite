@@ -21,7 +21,7 @@ import com.lingfeishengtian.contestwebsite.utils.types.Team;
 public class AdminPage extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int team = Authenticator.getTeamFromSessionID(req.getSession().getId(),getServletContext().getRealPath("") + "WEB-INF/session-tracker");
+        int team = Authenticator.getTeamFromSessionID(req.getSession().getId());
         PrintWriter out = resp.getWriter();
 
         if(team == 0){

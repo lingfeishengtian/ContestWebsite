@@ -19,7 +19,7 @@ public class DownloadSampleDataIfContestStarted extends HttpServlet {
    @Override
    public void doGet(HttpServletRequest request, HttpServletResponse response)
          throws IOException, ServletException {
-       int team = Authenticator.getTeamFromSessionID(request.getSession().getId(), getServletContext().getRealPath("") + "WEB-INF/session-tracker");
+       int team = Authenticator.getTeamFromSessionID(request.getSession().getId());
        try {
            if(team > -1 && DatabaseUtils.hasTeamRegistered(team)) {
                ServletContext context = getServletContext();

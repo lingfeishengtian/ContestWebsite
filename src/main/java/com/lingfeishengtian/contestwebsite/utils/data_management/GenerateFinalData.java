@@ -78,7 +78,7 @@ public class GenerateFinalData {
                             "      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\"></div>\n" +
                             "        <div class=\"form-inline my-2 my-lg-0\">\n" +
                             "        <ul class=\"navbar-nav mr-auto\">\n" +
-                            "          <li class=\"nav-item navbar-right\"> <a class=\"nav-link\" href=\"index.html\">Home <span class=\"sr-only\"></span></a> </li>\n" +
+                            "          <li class=\"nav-item navbar-right\"> <a class=\"nav-link\" href=\"\">Home <span class=\"sr-only\"></span></a> </li>\n" +
                             "        </ul>\n" +
                             "\t\t <ul class=\"navbar-nav mr-auto\">\n" +
                             "          <li class=\"nav-item active navbar-right\"> <a class=\"nav-link\" href=\"scoreboard.html\">Scoreboard <span class=\"sr-only\">(current)</span></a> </li>\n" +
@@ -186,7 +186,7 @@ public class GenerateFinalData {
     }
 
     private static boolean updateProgrammingScoreDataInDatabase() throws IOException {
-        File file = new File(pc2Loc + File.separator + "bin" + File.separator + "html" + File.separator + "index.html");
+        File file = new File(pc2Loc + File.separator + "bin" + File.separator + "html" + File.separator + "");
 
         if(!file.exists()){
             return false;

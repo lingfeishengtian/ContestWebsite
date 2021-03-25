@@ -19,7 +19,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
   <div class="form-inline my-2 my-lg-0">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active navbar-right"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item active navbar-right"> <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a> </li>
     </ul>
     <ul class="navbar-nav mr-auto">
       <li class="nav-item navbar-right"> <a class="nav-link" href="scoreboard.html">Scoreboard <span class="sr-only"></span></a> </li>

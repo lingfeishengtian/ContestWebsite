@@ -24,7 +24,7 @@ public class AppealForm extends HttpServlet {
         String relativePath = context.getRealPath("");
 
         String sessionID = request.getSession().getId();
-        int teamNum = Authenticator.getTeamFromSessionID(sessionID, relativePath + "WEB-INF/session-tracker");
+        int teamNum = Authenticator.getTeamFromSessionID(sessionID);
 
        try {
            boolean hasReg = DatabaseUtils.hasTeamRegistered(teamNum);

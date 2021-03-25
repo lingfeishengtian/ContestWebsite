@@ -23,7 +23,7 @@ public class TeamPage extends HttpServlet {
 
         PrintWriter out = resp.getWriter();
 
-        int team = Authenticator.getTeamFromSessionID(req.getSession().getId(), path + "WEB-INF/session-tracker");
+        int team = Authenticator.getTeamFromSessionID(req.getSession().getId());
 
         if(team > 0){
             req.setAttribute("teamNum", team);

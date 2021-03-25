@@ -13,7 +13,7 @@ import java.io.IOException;
 public class Redirect extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int team = Authenticator.getTeamFromSessionID(req.getSession().getId(), getServletContext().getRealPath("") + "WEB-INF/session-tracker");
+        int team = Authenticator.getTeamFromSessionID(req.getSession().getId());
 
         if(team == 0){
             resp.sendRedirect("admin");
