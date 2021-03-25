@@ -1,8 +1,0 @@
-200215 134222.684|CONFIG|main|setFileHandlers|Now logging to /Users/hunterhan/tomcat/webapps/ROOT/pc2-9.6.0/bin/logs directory.
-200215 134222.685|INFO|main|info|
-200215 134222.689|INFO|main|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 1.8.0_221 build 5102 Mac OS X 10.15.2 (x86_64) 
-200215 134222.689|INFO|main|startLog|Working directory is /Users/hunterhan/tomcat/webapps/ROOT/pc2-9.6.0/bin
-200215 134222.887|INFO|main|startLog|Process id is 33557@Hunters-MacBook-Pro.local
-200215 134222.887|INFO|main|start|Starting ConnectionManager...
-200215 134222.988|INFO|main|start|Started ConnectionManager
-200215 134222.990|INFO|main|info|Starting Server Transport...

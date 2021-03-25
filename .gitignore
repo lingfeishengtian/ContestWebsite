@@ -71,3 +71,21 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 /web/downloads/**
 !/web/downloads/downloads.txt
+
+# Ignore Visual Studio machine specific configurations
+.vscode/**
+
+# Required dependencies
+lib/**
+
+# Ignore maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar

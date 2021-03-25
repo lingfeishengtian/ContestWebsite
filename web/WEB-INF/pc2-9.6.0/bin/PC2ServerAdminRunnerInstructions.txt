@@ -1,7 +1,0 @@
-PC2 Server Admin Runner Start Server
-
-To use the script, run this command in terminal or cmd. 
-
-Use the .bat file if you are on Windows!
-
-/pathto/script site1Username site1Password contestPassword adminUsername adminPassword judgeUsername judgePassword boardUsername boardPassword testTeamUsername testTeamPassword

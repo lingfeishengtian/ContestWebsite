@@ -1,0 +1,7 @@
+; Admin password to access the admin panel on the website. To login to the admin, use 0 as a team number.
+; There can only be one admin because I am too lazy to save specific changes to accounts on the database.
+admin-password:default
+; The PC2 location on the disk to find contest data.
+pc2-loc:C:\Contest\pc2-9.6.0_main
+; Name of the Contest
+contest-name:Clements UIL
