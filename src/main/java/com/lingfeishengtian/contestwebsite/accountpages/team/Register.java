@@ -32,6 +32,7 @@ public class Register extends HttpServlet {
                     DatabaseUtils.teamRegistration(team, school, name1, name2, name3);
                     out.println(Authenticator.generateHTMLMessage("You have registered!"));
                 }
+                resp.sendRedirect("redirect");
             } catch (SQLException e) {
                 out.println(Authenticator.generateHTMLMessage("An internal error occurred, please contact staff!"));
                 e.printStackTrace();
@@ -39,7 +40,7 @@ public class Register extends HttpServlet {
         }else if(team == 0){
             out.println(Authenticator.generateHTMLMessage("Administrator can't register! Hehe!"));
         }else if(team < 0){
-            out.println(Authenticator.generateHTMLMessage("Please com.lingfeishengtian.contestwebsite.login.!"));
+            out.println(Authenticator.generateHTMLMessage("Please login!"));
         }else{
             out.println(Authenticator.generateHTMLMessage("Invalid School"));
         }

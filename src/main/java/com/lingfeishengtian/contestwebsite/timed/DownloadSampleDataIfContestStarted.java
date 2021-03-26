@@ -37,15 +37,19 @@ public class DownloadSampleDataIfContestStarted extends HttpServlet {
                    System.out.println("An internal error occurred.");
                }
 
+               Calendar c = Calendar.getInstance();
+               c.setTime(fileDate);
+               c.add(Calendar.MINUTE, -1);
+
                OutputStream outStream = response.getOutputStream();
-               if (fileDate != null && current.compareTo(fileDate) >= 0) {
+               if (fileDate != null && current.after(c.getTime())) {
                    String filePath = relativePath + "WEB-INF/secure-downloads/SampleData.zip";
                    AuthorizedDownload.downloadFile(response, outStream, context, filePath);
 
                    System.out.println("Team " + team + " has downloaded sample data at " + current.toString());
                } else {
                    response.setContentType("text/html");
-                   outStream.write("<html><body><script>alert('The contest hasn\\'t started yet!'); window.history.back();</script></body></html>".getBytes());
+                   outStream.write("<html><body><script>alert('Please wait until 1 minute before the competition starts to download the sample data.'); window.history.back();</script></body></html>".getBytes());
                }
 
                outStream.close();

@@ -3,6 +3,7 @@ package com.lingfeishengtian.contestwebsite.accountpages.team;
 import com.lingfeishengtian.contestwebsite.login.Authenticator;
 import com.lingfeishengtian.contestwebsite.utils.data_management.DatabaseUtils;
 import com.lingfeishengtian.contestwebsite.utils.data_management.GenerateAppealRow;
+import com.lingfeishengtian.contestwebsite.utils.types.Team;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -27,9 +28,17 @@ public class TeamPage extends HttpServlet {
 
         if(team > 0){
             req.setAttribute("teamNum", team);
+
             try {
-                req.setAttribute("appealRowElements", GenerateAppealRow.getAppealRowForTeam(DatabaseUtils.GetAppealsForTeam(team, path)));
-                req.getRequestDispatcher("WEB-INF/protected-pages/TeamProtected.jsp").forward(req, resp);
+                Team registeredTeam = DatabaseUtils.getTeam(team);
+                if(DatabaseUtils.hasTeamRegistered(team) && registeredTeam != null){
+                    req.setAttribute("school", registeredTeam.school);
+                    req.setAttribute("members", registeredTeam.teammate1 + ", " + registeredTeam.teammate2 + ", " + registeredTeam.teammate3);
+                    req.setAttribute("appealRowElements", GenerateAppealRow.getAppealRowForTeam(DatabaseUtils.GetAppealsForTeam(team, path)));
+                    req.getRequestDispatcher("WEB-INF/protected-pages/TeamProtected.jsp").forward(req, resp);
+                }else{
+                    req.getRequestDispatcher("WEB-INF/protected-pages/TeamUnregistered.jsp").forward(req, resp);
+                }
             } catch (SQLException e) {
                 e.printStackTrace();
                 out.println(Authenticator.generateHTMLMessage("An SQL error occurred, contact the admin and let him know to check logs!"));

@@ -189,6 +189,16 @@ public class DatabaseUtils {
         return a;
     }
 
+    public static Team getTeam(int teamNum) throws SQLException {
+        Team[] teams = getRegisteredTeams();
+
+        for (Team team : teams) {
+            if(team.team == teamNum) return team;
+        }
+
+        return null;
+    }
+
     public static Team[] getRegisteredTeams() throws SQLException {
         String sql = "SELECT * FROM Registration";
         ArrayList<Team> teams = new ArrayList<>();

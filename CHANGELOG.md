@@ -16,3 +16,9 @@ Changes
 
 - Changed the security system so that it longer logs IP
 - There is no longer a need for the session tracker folder as sessions are stored in memory
+
+## Revision 1.2.1
+Changes and Bugfix
+
+- Moved registration to a specific webpage that must be completed before accessing main pages
+- Admin can now be accessed

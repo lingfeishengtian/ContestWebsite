@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Authenticator {
     private static String adminPass;
     private static ArrayList<User> users = new ArrayList<User>();
+    private static final User admin = new User(0);
 
     public static void setAdminPasscode(String pass){
         if(adminPass == null) adminPass = pass;
@@ -23,7 +24,10 @@ public class Authenticator {
     }
 
     public static boolean authenticateUser(int team, String pass, String passwordsPath, String session) throws IOException {
-        if(team == 0 && pass.equals(adminPass)) return true;
+        if(team == 0 && pass.equals(adminPass)){
+            admin.addSession(session);
+            return true;
+        } 
         FileReader readfile = new FileReader(passwordsPath);
         BufferedReader readbuffer = new BufferedReader(readfile);
 
@@ -53,15 +57,15 @@ public class Authenticator {
     }
 
     public static int getTeamFromSessionID(String session) {
-        for (User user : users) {
-            System.out.println(user.toString());
+        if(admin.containsSession(session)){
+            return 0;
         }
-         for (User u : users) {
-             if(u.containsSession(session)){
-                 return u.getTeam();
-             }
-         }
-         return -1;
+        for (User u : users) {
+            if(u.containsSession(session)){
+                return u.getTeam();
+            }
+        }
+        return -1;
     }
 
     public static String generateHTMLMessage(String message){

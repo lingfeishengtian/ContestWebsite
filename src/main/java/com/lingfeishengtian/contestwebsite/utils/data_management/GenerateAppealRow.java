@@ -12,7 +12,7 @@ public class GenerateAppealRow {
 
         for(Appeal a : appeals){
             html += "\n" +
-                    "\t\t\t\t\t<div class=\"gray-back-div\">\n" +
+                    "\t\t\t\t\t<div class=\"white-back-div\">\n" +
                     "\t\t\t\t\t\t<h1>Problem " + a.getProblemNumber() + "</h1>\n" +
                     "\t\t\t\t\t\t<b>Status: </b>" + a.getStatus() + "\n" +
                     "\t\t\t\t\t\t<br><b>Message: </b>" + a.getMessage() + "\n" +

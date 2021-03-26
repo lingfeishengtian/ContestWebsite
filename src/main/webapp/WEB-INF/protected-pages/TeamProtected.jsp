@@ -36,11 +36,14 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="text-center">Welcome Team <%=request.getAttribute("teamNum")%></h1>
-                    <p class="text-center"><strong>YOU MUST READ THIS! You MIGHT MISS SOMETHING!</strong></p>
-                    <p class="text-center">Have you registered yet? If you haven't, please do so below in the registration section. If you do not register, there is a chance your score won't be counted.</p>
-                    <p class="text-center">This is your team's management panel. You will register, submit appeals and download sample data. Downloading PC^2, dry run, and sample data files are secure downloads and require you to login and register. Please register or your score will not count and you will not be able to compete!</p>
+                    <p class="text-center">This is your team's management panel. You will register, submit appeals and download sample data. Downloading PC^2, dry run, and sample data files are secure downloads and require you to login and register. Please register or your score may not be counted.</p>
                     <p class="text-center">Go back to the home page and view the "Troubleshooting" section if you have some technical difficulties.</p>
+                    <p class="text-center"><strong>Sample data download opens one minute before the contest starts.</strong></p>
                     <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="authorized-download?id=2" role="button">Download PC^2</a> <a class="btn btn-primary btn-lg btn-rounded" href="downloadContestSampleData" role="button">Download Sample Data</a> <a class="btn btn-primary btn-lg btn-rounded" href="authorized-download?id=3" role="button">Download DryRun Data</a></p>
+                    <h1 class="text-center">Registration Information</h2>
+                    <p class="text-center">Thank you for registering, please double check your registration information. If there are any errors, please report them to staff.</p>
+                    <p class="text-center"><strong>School: </strong><%=request.getAttribute("school")%></p>
+                    <p class="text-center"><strong>Team Members: </strong><%=request.getAttribute("members")%></p>
                 </div>
             </div>
         </div>
@@ -87,45 +90,6 @@
         </div>
     </div>
 </header>
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-md-8 mx-auto">
-            <div class="jumbotron">
-                <div class="row text-center">
-                    <div class="text-center col-12">
-                        <h2>Register Your Team</h2>
-                    </div>
-                    <div class="text-center col-12">
-                        <form id="registrationForm" clrs="text-center" action="register" method="POST">
-                            <div class="form-group">
-                                <label for="school">School Name</label>
-                                <input type="text" class="form-control" id="school" name="school" placeholder="Example HS" aria-describedby="schoolRegister">
-                                <span id="schoolRegister" class="form-text text-muted" style="display: none;">Please enter your school name.</span>
-                            </div>
-                            <div class="form-group">
-                                <label for="name1">Teammate 1</label>
-                                <input type="text" class="form-control" id="name1" name="name1" placeholder="Teammate 1" aria-describedby="name1Register">
-                                <span id="name1Help" class="form-text text-muted" style="display: none;">Please enter your name.</span>
-                            </div>
-                            <div class="form-group">
-                                <label for="name2">Teammate 2</label>
-                                <input type="text" class="form-control" id="name2" name="name2" placeholder="Teammate 2" aria-describedby="name2Register">
-                                <span id="name2Help" class="form-text text-muted" style="display: none;">Please enter your name.</span>
-                            </div>
-                            <div class="form-group">
-                                <label for="name3">Teammate 3</label>
-                                <input type="text" class="form-control" id="name3" name="name3" placeholder="Teammate 3" aria-describedby="name3Register">
-                                <span id="name3Help" class="form-text text-muted" style="display: none;">Please enter your name.</span>
-                            </div>
-                            <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg"> Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="jumbotron">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -156,8 +120,9 @@
             </div>
         </div>
     </div>
-</div>
 <div>
+<div class="blank-space-baby"></div>
+<div class="jumbotron">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -171,6 +136,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 <div class="blank-space-baby"></div>
 <footer class="text-center">
