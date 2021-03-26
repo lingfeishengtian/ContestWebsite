@@ -82,7 +82,7 @@
     <div class="container">
           <div class="row">
                 <div class="col-12">
-                      <p>Made by Hunter Han</p>
+                      <p>Made by Hunter, Damian, and Erica</p>
                     </div>
               </div>
         </div>
