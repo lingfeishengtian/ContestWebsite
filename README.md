@@ -2,10 +2,13 @@
 The contest website is an updated UIL website that allows admin input of written scores and auto generates a score report based on the data provided and scraped results from PC^2.
 
 ## TODO
-The website isn't perfect and has a few flaws.
+The website isn't perfect and has a many flaws.
 
-- The security for accounts is terrible and requires hardening
+- The security is ok for now, but can be reconsidered
 - The method of returning html data is not ideal and should be redesigned
+- Fix spelling errors, html errors, and minor details (for example, extrraneous commmas in the team page if there are less than 3 team members)
+- Add more configuration options that would allow for configurations of the scoreboard and what information can be released
+- Tighter integration with PC^2 (maybe starting the PC^2 timer automatically)
 
 # Usage
 The compiled file is a WAR file that should be exploded to modify configurations and use a different passwords file.
