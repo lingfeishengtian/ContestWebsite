@@ -6,11 +6,10 @@
 
   <groupId>com.lingfeishengtian.contestwebsite</groupId>
   <artifactId>contest-website</artifactId>
-  <version>1.2.1</version>
+  <version>1.2.2</version>
   <packaging>war</packaging>
 
   <name>Contest Website</name>
-  <!-- FIXME change it to the project's website -->
   <url>local URL</url>
 
   <properties>
@@ -40,13 +39,6 @@
      <artifactId>jsoup</artifactId>
      <version>1.13.1</version>
    </dependency>
-
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 
   <build>

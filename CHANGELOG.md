@@ -22,3 +22,10 @@ Changes and Bugfix
 
 - Moved registration to a specific webpage that must be completed before accessing main pages
 - Admin can now be accessed
+
+## Revision 1.2.2
+Slight Modifications and Bugfix
+
+- Fixed the scoreboard not finding the index.html page
+- Fixed slight error in the jsp page of scoreboard
+- Removed JUnit dependency

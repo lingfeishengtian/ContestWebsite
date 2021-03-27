@@ -186,7 +186,7 @@ public class GenerateFinalData {
     }
 
     private static boolean updateProgrammingScoreDataInDatabase() throws IOException {
-        File file = new File(pc2Loc + File.separator + "bin" + File.separator + "html" + File.separator + "");
+        File file = new File(pc2Loc + File.separator + "bin" + File.separator + "html" + File.separator + "index.html");
 
         if(!file.exists()){
             return false;

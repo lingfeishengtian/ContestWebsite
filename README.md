@@ -8,7 +8,10 @@ The website isn't perfect and has a many flaws.
 - The method of returning html data is not ideal and should be redesigned
 - Fix spelling errors, html errors, and minor details (for example, extrraneous commmas in the team page if there are less than 3 team members)
 - Add more configuration options that would allow for configurations of the scoreboard and what information can be released
-- Tighter integration with PC^2 (maybe starting the PC^2 timer automatically)
+- Tighter integration with PC^2 (maybe starting the PC^2 timer automatically) (maybe display countdown to contest end on the website)
+- Update the admin page to be able to edit configurations (possibly restrict admin to only a single session)
+- Add a contest timer to the admin page
+- Add a log off button
 
 # Usage
 The compiled file is a WAR file that should be exploded to modify configurations and use a different passwords file.
