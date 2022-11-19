@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Travis UIL Competition</title>
+  <title>Clements UIL Competition</title>
   <!-- Bootstrap -->
   <link href="./css/bootstrap-4.3.1.css" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet" type="text/css">
@@ -14,7 +14,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <img class="navbar-brand image" src="images/logo.png" alt="Travis Logo">
+  <img class="navbar-brand image" src="images/logo.png" alt="Clements Logo">
   <a class="navbar-brand navbar-center" href="#">UIL Competition</a>
   <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
   <div class="form-inline my-2 my-lg-0">
