@@ -12,6 +12,7 @@ The website isn't perfect and has a many flaws.
 - Update the admin page to be able to edit configurations (possibly restrict admin to only a single session)
 - Add a contest timer to the admin page
 - Add a log off button
+- Form Validation
 
 # Usage
 The compiled file is a WAR file that should be exploded to modify configurations and use a different passwords file.
