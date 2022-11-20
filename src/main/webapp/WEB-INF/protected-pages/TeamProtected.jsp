@@ -23,7 +23,7 @@
             <li class="nav-item navbar-right"> <a class="nav-link" href="scoreboard.html">Scoreboard <span class="sr-only"></span></a> </li>
         </ul>
         <%
-        if((int)request.getAttribute("teamNum") >= 0){
+        if(request.getAttribute("teamNum") != null && (int)request.getAttribute("teamNum") >= 0){
             %>
             <ul class="navbar-nav mr-auto">
             <li class="nav-item navbar-right"> <a class="nav-link" href="logout">Logout <span class="sr-only"></span></a> </li>

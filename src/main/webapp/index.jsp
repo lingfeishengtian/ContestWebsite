@@ -25,7 +25,7 @@
       <li class="nav-item navbar-right"> <a class="nav-link" href="scoreboard.html">Scoreboard <span class="sr-only"></span></a> </li>
     </ul>
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item navbar-right"> <a class="nav-link" href="login.html">Login <span class="sr-only"></span></a> </li>
+      <li class="nav-item navbar-right"> <a class="nav-link" href="login.html" id="login-logout-nav">Login <span class="sr-only"></span></a> </li>
     </ul>
     <ul class="navbar-nav mr-auto">
       <li class="nav-item navbar-right"> <a class="nav-link" href="redirect">My Team <span class="sr-only"></span></a> </li>
@@ -44,6 +44,10 @@
           <script>
               $.get('login', function (response) {
                 document.getElementById("logged-in-status").textContent = response;
+                if (response.startsWith("Logged in as")) {
+                  document.getElementById("login-logout-nav").textContent = "Logout";
+                  document.getElementById("login-logout-nav").href = "logout";
+                }
               });
           </script>
           <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="redirect" role="button">Go to Team Page</a>
