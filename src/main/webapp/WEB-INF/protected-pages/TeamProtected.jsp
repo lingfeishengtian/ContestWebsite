@@ -12,7 +12,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <img class="navbar-brand image" src="images/logo.png" alt="Travis Logo">
+    <img class="navbar-brand image" src="images/logo.png" alt="Clements Logo">
     <a class="navbar-brand navbar-center" href="#">UIL Competition</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
     <div class="form-inline my-2 my-lg-0">
@@ -22,9 +22,22 @@
         <ul class="navbar-nav mr-auto">
             <li class="nav-item navbar-right"> <a class="nav-link" href="scoreboard.html">Scoreboard <span class="sr-only"></span></a> </li>
         </ul>
-        <ul class="navbar-nav mr-auto">
+        <%
+        if(request.getAttribute("teamNum") != null && (int)request.getAttribute("teamNum") >= 0){
+            %>
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item navbar-right"> <a class="nav-link" href="logout">Logout <span class="sr-only"></span></a> </li>
+            </ul>
+            <%
+        }
+        else{
+            %>
+            <ul class="navbar-nav mr-auto">
             <li class="nav-item navbar-right"> <a class="nav-link" href="login.html">Login <span class="sr-only"></span></a> </li>
-        </ul>
+            </ul>
+            <%
+        }
+        %>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active navbar-right"> <a class="nav-link" href="redirect">My Team <span class="sr-only">(current)</span></a> </li>
         </ul>
@@ -104,13 +117,13 @@
                             <form id="feedbackForm" class="text-center" action = "AppealForm" method = "POST">
                                 <div class="form-group">
                                     <label for="problem">Problem Number</label>
-                                    <input type="text" class="form-control" id="problem" name="problem" placeholder="Problem Number (Ex. 2)" aria-describedby="emailHelp">
+                                    <input type="number" class="form-control" id="problem" name="problem" placeholder="Problem Number (Ex. 2)" aria-describedby="emailHelp">
                                     <span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid problem number.</span>
                                 </div>
                                 <div class="form-group">
                                     <label for="message">Message</label>
                                     <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Message" aria-describedby="messageHelp"></textarea>
-                                    <span id="messageHelp" class="form-text text-muted" style="display: none;">Please enter a message.</span>
+                                    <span id="messageHelp" class="form-text text-muted" style="display: none;">Please enter the appeal message.</span>
                                 </div>
                                 <button type="submit" id="appealSubmit" class="btn btn-primary btn-lg"> Send</button>
                             </form>

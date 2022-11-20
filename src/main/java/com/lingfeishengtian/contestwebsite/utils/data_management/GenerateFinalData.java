@@ -72,7 +72,7 @@ public class GenerateFinalData {
 
         if(shouldIncludeNavBar){
             htmlF += "    <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n" +
-                            "\t<img class=\"navbar-brand image\" src=\"images/logo.png\" alt=\"Travis Logo\">\n" +
+                            "\t<img class=\"navbar-brand image\" src=\"images/logo.png\" alt=\"Clements Logo\">\n" +
                             "      <a class=\"navbar-brand navbar-center\" href=\"#\">UIL Competition</a>\n" +
                             "      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\"> <span class=\"navbar-toggler-icon\"></span> </button>\n" +
                             "      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\"></div>\n" +

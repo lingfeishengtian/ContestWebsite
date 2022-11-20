@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Travis UIL Competition</title>
+    <title>Clements UIL Competition</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -12,24 +12,32 @@
 </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<img class="navbar-brand image" src="images/logo.png" alt="Travis Logo">
+	<img class="navbar-brand image" src="images/logo.png" alt="Clements Logo">
       <a class="navbar-brand navbar-center" href="#">UIL Competition</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
         <div class="form-inline my-2 my-lg-0">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item navbar-right"> <a class="nav-link" href="./">Home <span class="sr-only"></span></a> </li>
-        </ul>
-		 <ul class="navbar-nav mr-auto">
-          <li class="nav-item active navbar-right"> <a class="nav-link" href="scoreboard.html">Scoreboard <span class="sr-only">(current)</span></a> </li>
-        </ul>
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item navbar-right"> <a class="nav-link" href="login.html">Login <span class="sr-only"></span></a> </li>
+            <li class="nav-item navbar-right"> <a class="nav-link" href="./">Home <span class="sr-only"></span></a> </li>
+          </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active navbar-right"> <a class="nav-link" href="scoreboard.html">Scoreboard <span class="sr-only">(current)</span></a> </li>
+          </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item navbar-right"> <a class="nav-link" href="login.html" id="login-logout-nav">Login <span class="sr-only"></span></a> </li>
           </ul>
           <ul class="navbar-nav mr-auto">
             <li class="nav-item navbar-right"> <a class="nav-link" href="redirect">My Team <span class="sr-only">(current)</span></a> </li>
           </ul>
         </div>
+        <script>
+          $.get('login', function (response) {
+            if (response.startsWith("Logged in as")) {
+              document.getElementById("login-logout-nav").textContent = "Logout";
+              document.getElementById("login-logout-nav").href = "logout";
+            }
+          });
+        </script>
     </nav>
     <header>
       <div class="jumbotron">
@@ -39,7 +47,7 @@
               <h1 class="text-center">Scoreboard</h1>
               <p class="text-center">Stop wasting time looking at other people's scores. The only thing that matters right now is <strong>YOU and YOUR SCORE.</strong> Looking at other people's progress will not help you gain extra points.</p>
               <p class="text-center">Unless the competition is over then do whatever you so desire!&nbsp;</p>
-              <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="WEB-INF/secure-downloads/pc2-9.6.0_distribution.zip" role="button">Download PC^2</a> </p>
+              <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="authorized-download?id=2" role="button">Download PC^2</a> </p>
             </div>
           </div>
         </div>

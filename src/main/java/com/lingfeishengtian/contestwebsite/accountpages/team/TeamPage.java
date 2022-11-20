@@ -33,7 +33,7 @@ public class TeamPage extends HttpServlet {
                 Team registeredTeam = DatabaseUtils.getTeam(team);
                 if(DatabaseUtils.hasTeamRegistered(team) && registeredTeam != null){
                     req.setAttribute("school", registeredTeam.school);
-                    req.setAttribute("members", registeredTeam.teammate1 + ", " + registeredTeam.teammate2 + ", " + registeredTeam.teammate3);
+                    req.setAttribute("members", registeredTeam.getTeammatesString());
                     req.setAttribute("appealRowElements", GenerateAppealRow.getAppealRowForTeam(DatabaseUtils.GetAppealsForTeam(team, path)));
                     req.getRequestDispatcher("WEB-INF/protected-pages/TeamProtected.jsp").forward(req, resp);
                 }else{

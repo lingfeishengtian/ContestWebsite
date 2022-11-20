@@ -28,6 +28,20 @@ public class Team {
         return teammates;
     }
 
+    public String getTeammatesString(){
+        String teammates = "";
+        if(teammate1 != null && !teammate1.isEmpty()) teammates += teammate1;
+        if(teammate2 != null && !teammate2.isEmpty()){
+            if(!teammates.isEmpty()) teammates += ", ";
+            teammates += teammate2;
+        }
+        if(teammate3 != null && !teammate3.isEmpty()){
+            if(!teammates.isEmpty()) teammates += ", ";
+            teammates += teammate3;
+        }
+        return teammates;
+    }
+
     @Override
     public String toString() {
         return "Team{" +

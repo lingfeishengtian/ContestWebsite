@@ -17,10 +17,10 @@ import java.sql.SQLException;
 public class Register extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String school = req.getParameter("school");
-        String name1 = req.getParameter("name1");
-        String name2 = req.getParameter("name2");
-        String name3 = req.getParameter("name3");
+        String school = cleanString(req.getParameter("school"));
+        String name1 = cleanString(req.getParameter("name1"));
+        String name2 = cleanString(req.getParameter("name2"));
+        String name3 = cleanString(req.getParameter("name3"));
         int team = Authenticator.getTeamFromSessionID(req.getSession().getId());
         PrintWriter out = resp.getWriter();
 
@@ -45,5 +45,14 @@ public class Register extends HttpServlet {
             out.println(Authenticator.generateHTMLMessage("Invalid School"));
         }
         out.flush();
+    }
+
+    private static String cleanString(String s){
+        s = s.replaceAll("&", "&amp;");
+        s = s.replaceAll("<", "&lt;");
+        s = s.replaceAll(">", "&gt;");
+        s = s.replaceAll("\"", "&quot;");
+        s = s.replaceAll("'", "&apos;");
+        return s;
     }
 }

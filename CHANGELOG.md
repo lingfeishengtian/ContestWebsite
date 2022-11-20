@@ -29,3 +29,11 @@ Slight Modifications and Bugfix
 - Fixed the scoreboard not finding the index.html page
 - Fixed slight error in the jsp page of scoreboard
 - Removed JUnit dependency
+
+## Revision 1.2.3
+General Updates and Additions
+
+- Added logout button 
+- Changed school information to Clements by default
+- Fixed XSS through school/member names
+- Updates to Help section and removed extra comments when printing team names 

@@ -12,7 +12,7 @@
     </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<img class="navbar-brand image" src="images/logo.png" alt="Travis Logo">
+<img class="navbar-brand image" src="images/logo.png" alt="Clements Logo">
 <a class="navbar-brand navbar-center" href="#">UIL Competition</a>
 <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
 <div class="form-inline my-2 my-lg-0">
@@ -22,9 +22,22 @@
 <ul class="navbar-nav mr-auto">
 <li class="nav-item navbar-right"> <a class="nav-link" href="scoreboard.html">Scoreboard <span class="sr-only"></span></a> </li>
 </ul>
-<ul class="navbar-nav mr-auto">
-<li class="nav-item navbar-right"> <a class="nav-link" href="login.html">Login <span class="sr-only"></span></a> </li>
-</ul>
+<%
+    if(request.getAttribute("teamNum") != null && (int)request.getAttribute("teamNum") >= 0){
+        %>
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item navbar-right"> <a class="nav-link" href="logout">Logout <span class="sr-only"></span></a> </li>
+        </ul>
+        <%
+    }
+    else{
+        %>
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item navbar-right"> <a class="nav-link" href="login.html">Login <span class="sr-only"></span></a> </li>
+        </ul>
+        <%
+    }
+%>
 <ul class="navbar-nav mr-auto">
 <li class="nav-item active navbar-right"> <a class="nav-link" href="redirect">My Team <span class="sr-only">(current)</span></a> </li>
 </ul>
@@ -40,11 +53,51 @@
                     <p class="text-center">Once you enter individual written scores, all scores including programming ones will be automatically added together and placed. A custom scoreboard would be generated. For you, a file with all data will be generated!</p>
                     <p class="text-center"> <a class="btn btn-primary btn-lg btn-rounded" href="authorized-download?id=1" role="button">Download PC^2 Judge</a></p>
                     <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="generateReport" role="button">Generate Full Score Report</a> <a class="btn btn-primary btn-lg btn-rounded" href="generateIndividual?id=1" role="button">Get Individual Written Scoreboard</a> <a class="btn btn-primary btn-lg btn-rounded" href="generateIndividual?id=2" role="button">Get Individual Programming Scoreboard</a></p>
-                    </div>
                 </div>
             </div>
         </div>
-    </header>
+        <div>
+            <p id="countdownTimer" class="countdown-text"></p>
+            <p id="contest-info" class="countdown-text-sub">until contest starts.</p>
+            <script>
+                function startTimer(duration, display) {
+                    var start = Date.now(),
+                        diff,
+                        minutes,
+                        seconds;
+                    var interval;
+                    function timer() {
+                        diff = duration - (((Date.now() - start) / 1000) | 0);
+
+                        minutes = (diff / 60) | 0;
+                        seconds = (diff % 60) | 0;
+
+                        minutes = minutes < 10 ? "0" + minutes : minutes;
+                        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                        display.textContent = minutes + " minutes " + seconds + " seconds";
+
+                        if (diff <= 0 || duration < 0){
+                            display.textContent = "The contest has STARTED!"
+                            document.getElementById("contest-info").textContent = "";
+                            clearInterval(interval)
+                        } else {
+                            document.getElementById("contest-info").textContent = "until contest starts.";
+                        }
+                    };
+                    timer();
+                    interval = setInterval(timer, 1000);
+                }
+
+                $.get('timeTillContestStart', function (data) {
+                    var fiveMinutes = parseInt(data),
+                        display = document.querySelector('#countdownTimer');
+                    startTimer(fiveMinutes, display);
+                })
+            </script>
+        </div>
+    </div>
+</header>
 <div class="container">
     <div class="row">
         <div class="col-12">
