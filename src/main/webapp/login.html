@@ -28,14 +28,6 @@
             <li class="nav-item navbar-right"> <a class="nav-link" href="redirect">My Team <span class="sr-only"></span></a> </li>
         </ul>
     </div>
-    <script>
-        $.get('login', function (response) {
-          if (response.startsWith("Logged in as")) {
-            document.getElementById("login-logout-nav").textContent = "Logout";
-            document.getElementById("login-logout-nav").href = "logout";
-          }
-        });
-    </script>
 </nav>
 <div class="text-center col-12 login-box-contain">
     <form id="loginForm" class="text-center" action = "login" method = "POST">
@@ -64,6 +56,14 @@
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $.get('login', function (response) {
+      if (response.startsWith("Logged in as")) {
+        document.getElementById("login-logout-nav").textContent = "Logout";
+        document.getElementById("login-logout-nav").href = "logout";
+      }
+    });
+</script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.3.1.js"></script>
