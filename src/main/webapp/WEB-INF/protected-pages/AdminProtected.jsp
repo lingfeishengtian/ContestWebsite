@@ -12,7 +12,7 @@
     </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<img class="navbar-brand image" src="images/logo.png" alt="Travis Logo">
+<img class="navbar-brand image" src="images/logo.png" alt="Clements Logo">
 <a class="navbar-brand navbar-center" href="#">UIL Competition</a>
 <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
 <div class="form-inline my-2 my-lg-0">
