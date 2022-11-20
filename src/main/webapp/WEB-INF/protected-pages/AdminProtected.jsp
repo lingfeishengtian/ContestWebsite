@@ -53,11 +53,51 @@
                     <p class="text-center">Once you enter individual written scores, all scores including programming ones will be automatically added together and placed. A custom scoreboard would be generated. For you, a file with all data will be generated!</p>
                     <p class="text-center"> <a class="btn btn-primary btn-lg btn-rounded" href="authorized-download?id=1" role="button">Download PC^2 Judge</a></p>
                     <p class="text-center"><a class="btn btn-primary btn-lg btn-rounded" href="generateReport" role="button">Generate Full Score Report</a> <a class="btn btn-primary btn-lg btn-rounded" href="generateIndividual?id=1" role="button">Get Individual Written Scoreboard</a> <a class="btn btn-primary btn-lg btn-rounded" href="generateIndividual?id=2" role="button">Get Individual Programming Scoreboard</a></p>
-                    </div>
                 </div>
             </div>
         </div>
-    </header>
+        <div>
+            <p id="countdownTimer" class="countdown-text"></p>
+            <p id="contest-info" class="countdown-text-sub">until contest starts.</p>
+            <script>
+                function startTimer(duration, display) {
+                    var start = Date.now(),
+                        diff,
+                        minutes,
+                        seconds;
+                    var interval;
+                    function timer() {
+                        diff = duration - (((Date.now() - start) / 1000) | 0);
+
+                        minutes = (diff / 60) | 0;
+                        seconds = (diff % 60) | 0;
+
+                        minutes = minutes < 10 ? "0" + minutes : minutes;
+                        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                        display.textContent = minutes + " minutes " + seconds + " seconds";
+
+                        if (diff <= 0 || duration < 0){
+                            display.textContent = "The contest has STARTED!"
+                            document.getElementById("contest-info").textContent = "";
+                            clearInterval(interval)
+                        } else {
+                            document.getElementById("contest-info").textContent = "until contest starts.";
+                        }
+                    };
+                    timer();
+                    interval = setInterval(timer, 1000);
+                }
+
+                $.get('timeTillContestStart', function (data) {
+                    var fiveMinutes = parseInt(data),
+                        display = document.querySelector('#countdownTimer');
+                    startTimer(fiveMinutes, display);
+                })
+            </script>
+        </div>
+    </div>
+</header>
 <div class="container">
     <div class="row">
         <div class="col-12">
