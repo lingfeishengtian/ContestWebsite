@@ -46,7 +46,7 @@ public class TeamPage extends HttpServlet {
                 e.printStackTrace();
                 out.println(Authenticator.generateHTMLMessage("An unexpected error occurred, contact the admin immediately!"));
             }
-        } else if(team == 0){ // seems unnecessary?
+        } else if(team == 0){
             out.println(Authenticator.generateHTMLMessage("You are an administrator! Don't go to the team panel!"));
         } else {
             out.println(Authenticator.generateHTMLMessage("You have not logged in!"));

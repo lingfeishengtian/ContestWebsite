@@ -2,7 +2,7 @@
 The contest website is an updated UIL website that allows admin input of written scores and auto generates a score report based on the data provided and scraped results from PC^2.
 
 ## TODO
-The website isn't perfect and has a many flaws.
+The website isn't perfect and has many flaws.
 
 - The security is ok for now, but can be reconsidered
 - The method of returning html data is not ideal and should be redesigned
