@@ -33,7 +33,7 @@ public class TeamPage extends HttpServlet {
                 Team registeredTeam = DatabaseUtils.getTeam(team);
                 if(DatabaseUtils.hasTeamRegistered(team) && registeredTeam != null){
                     req.setAttribute("school", registeredTeam.school);
-                    req.setAttribute("members", registeredTeam.teammate1 + ", " + registeredTeam.teammate2 + ", " + registeredTeam.teammate3);
+                    req.setAttribute("members", registeredTeam.getTeammatesString());
                     req.setAttribute("appealRowElements", GenerateAppealRow.getAppealRowForTeam(DatabaseUtils.GetAppealsForTeam(team, path)));
                     req.getRequestDispatcher("WEB-INF/protected-pages/TeamProtected.jsp").forward(req, resp);
                 }else{
@@ -46,7 +46,7 @@ public class TeamPage extends HttpServlet {
                 e.printStackTrace();
                 out.println(Authenticator.generateHTMLMessage("An unexpected error occurred, contact the admin immediately!"));
             }
-        } else if(team == 0){
+        } else if(team == 0){ // seems unnecessary?
             out.println(Authenticator.generateHTMLMessage("You are an administrator! Don't go to the team panel!"));
         } else {
             out.println(Authenticator.generateHTMLMessage("You have not logged in!"));
